@@ -7,11 +7,17 @@
     "hash": "32c0e73b90efcbe0d7264410f822bc8721354ab5d49b7c159ba067531852a9b0",
     "extract_dir": "briss-0.9",
     "bin": "briss.bat",
+    "shortcuts": [
+        [
+            "briss.bat",
+            "briss"
+        ]
+    ],
     "pre_install": [
-        "Write-Output 'java -jar \"$($dir.Path)\\briss.jar\"' | Out-File $dir\\briss.bat",
+        "Write-Output \"java -jar `\"$($dir.Path)\\briss.jar`\"\" | Out-File -encoding ASCII $dir\\briss.bat",
         "if (!(Test-Path \"$dir\\briss.jar\")) { ",
-        "    Get-ChildItem \"$dir\" \"briss-*.jar\" | ",
-        "    Where-Object { $_.Name -Match 'briss.-*\\.jar' } | ",
+        "    Get-ChildItem \"$dir\" \"briss*.jar\" | ",
+        "    Where-Object { $_.Name -Match 'briss.+\\.jar' } | ",
         "    ForEach-Object { ",
         "        warn \"Moving $($_.Name) to briss.jar\" ",
         "        Move-Item -Force \"$dir\\$($_.Name)\" \"$dir\\briss.jar\" ",
