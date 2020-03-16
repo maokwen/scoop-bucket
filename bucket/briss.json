@@ -1,0 +1,23 @@
+{
+    "homepage": "https://sourceforge.net/projects/briss",
+    "version": "0.9",
+    "license": "GPL-2.0-only",
+    "description": "A simple cross-platform application for cropping PDF files",
+    "url": "https://astuteinternet.dl.sourceforge.net/project/briss/release%200.9/briss-0.9.zip",
+    "hash": "32c0e73b90efcbe0d7264410f822bc8721354ab5d49b7c159ba067531852a9b0",
+    "extract_dir": "briss-$version",
+    "shortcuts": [
+        [
+            "briss-$version.exe",
+            "briss"
+        ]
+    ],
+    "checkver": {
+        "url": "https://sourceforge.net/projects/briss/best_release.json",
+        "jsonpath": "$.release.filename",
+        "regex": "/release ([\\d\\.]+)/briss-[\\d\\.]+\\.zip"
+    },
+    "autoupdate": {
+        "url": "https://managedway.dl.sourceforge.net/project/briss/release%20$version/briss-$version.zip"
+    }
+}
