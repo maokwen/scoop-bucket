@@ -6,19 +6,21 @@
     "url": "https://astuteinternet.dl.sourceforge.net/project/briss/release%200.9/briss-0.9.zip",
     "hash": "32c0e73b90efcbe0d7264410f822bc8721354ab5d49b7c159ba067531852a9b0",
     "extract_dir": "briss-0.9",
+    "bin": "briss.ps1",
     "shortcuts": [
         [
-            "briss.exe",
+            "briss.ps1",
             "briss"
         ]
     ],
     "pre_install": [
-        "if (!(Test-Path \"$dir\\briss.exe\")) { ",
-        "    Get-ChildItem \"$dir\" \"briss*.exe\" | ",
-        "    Where-Object { $_.Name -Match 'briss.*\\.exe' } | ",
+        "Write-Output \"java -jar .\\briss.jar\" | Out-File briss.ps1",
+        "if (!(Test-Path \"$dir\\briss.jar\")) { ",
+        "    Get-ChildItem \"$dir\" \"briss*.jar\" | ",
+        "    Where-Object { $_.Name -Match 'briss.*\\.jar' } | ",
         "    ForEach-Object { ",
-        "        warn \"Moving $($_.Name) to briss.exe\" ",
-        "        Move-Item -Force \"$dir\\$($_.Name)\" \"$dir\\briss.exe\" ",
+        "        warn \"Moving $($_.Name) to briss.jar\" ",
+        "        Move-Item -Force \"$dir\\$($_.Name)\" \"$dir\\briss.jar\" ",
         "    } ",
         "}"
     ],
