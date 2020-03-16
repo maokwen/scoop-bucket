@@ -20,7 +20,7 @@
     "checkver": {
         "url": "https://sourceforge.net/projects/eekeeper/best_release.json",
         "jsonpath": "$.release.filename",
-        "regex": "/EEKeeper [\\d\\.]+\\.zip"
+        "regex": "/EEKeeper ([\\d.]+).zip"
     },
     "autoupdate": {
         "url": "https://managedway.dl.sourceforge.net/project/eekeeper/EEKeeper%20$version.zip"
