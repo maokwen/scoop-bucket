@@ -8,7 +8,7 @@
     "extract_dir": "briss-0.9",
     "bin": "briss.bat",
     "pre_install": [
-        "Write-Output \"java -jar .\\$($dir.Path)\\briss.jar\" | Out-File $dir\\briss.bat",
+        "Write-Output \"java -jar \\\"$($dir.Path)\\briss.jar\\\"\" | Out-File $dir\\briss.bat",
         "if (!(Test-Path \"$dir\\briss.jar\")) { ",
         "    Get-ChildItem \"$dir\" \"briss-*.jar\" | ",
         "    Where-Object { $_.Name -Match 'briss.-*\\.jar' } | ",
