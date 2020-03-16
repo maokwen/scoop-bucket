@@ -11,7 +11,9 @@
             "EEKeeper"
         ]
     ],
-    "persist": "eekeeper.ini",
+    "persist": [
+        "eekeeper.ini"
+    ],
     "checkver": {
         "url": "https://sourceforge.net/projects/eekeeper/best_release.json",
         "jsonpath": "$.release.filename",
