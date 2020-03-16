@@ -11,8 +11,11 @@
             "EEKeeper"
         ]
     ],
-    "persist": [
-        "eekeeper.ini"
+    "persist": "eekeeper.ini",
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\eekeeper.ini\")) {",
+        "    New-Item \"$dir\\eekeeper.ini\" -Type File | Out-Null",
+        "}"
     ],
     "checkver": {
         "url": "https://sourceforge.net/projects/eekeeper/best_release.json",
