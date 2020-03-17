@@ -3,6 +3,9 @@
     "description": "Cross-platform V2Ray GUI client",
     "homepage": "https://github.com/Qv2ray/Qv2ray",
     "license": "GPL-3.0-only",
+    "depends": [
+        "v2ray"
+    ],
     "architecture": {
         "64bit": {
             "url": "https://github.com/Qv2ray/Qv2ray/releases/download/v2.2.3/Qv2ray.v2.2.3.Windows-x64.7z",
@@ -21,6 +24,17 @@
             "qv2ray.exe",
             "Qv2ray"
         ]
+    ],
+    "post_install": [
+        "if (!(Test-Path \"$persist_dir\\config\\Qv2ray.conf\")) {",
+        "    [PSObject]@{",
+        "        config_version = 11",
+        "        kernelConfig = [PSObject]@{",
+        "            v2CorePath_win = \"$scoopdir\\apps\\v2ray\\current\\v2ray.exe\"",
+        "            v2AssetsPath_win = \"$scoopdir\\apps\\v2ray\\current\"",
+        "        }",
+        "    } | ConvertTo-Json | Out-File -encoding ASCII \"$persist_dir\\config\\Qv2ray.conf\"",
+        "}"
     ],
     "checkver": "github",
     "autoupdate": {
