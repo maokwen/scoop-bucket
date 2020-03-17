@@ -11,5 +11,5 @@ jobs:
     - name: PullRequestHandler
       uses: Ash258/Scoop-GithubActions@stable
       env:
-        GITH_EMAIL: cabera.jakub@gmail.com
+        GITH_EMAIL: 18361388+MaoKwen@users.noreply.github.com
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
