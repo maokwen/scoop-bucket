@@ -1,11 +1,12 @@
 {
     "version": "2.2.3",
-    "description": "Cross-platform V2Ray GUI client",
+    "description": "Graphical frontend for v2ray",
     "homepage": "https://github.com/Qv2ray/Qv2ray",
-    "license": "GPL-3.0-only",
-    "depends": [
-        "v2ray"
-    ],
+    "license": "GPL-3.0-or-later",
+    "depends": "v2ray",
+    "suggest": {
+        "vcredist": "extras/vcredist2019"
+    },
     "architecture": {
         "64bit": {
             "url": "https://github.com/Qv2ray/Qv2ray/releases/download/v2.2.3/Qv2ray.v2.2.3.Windows-x64.7z",
@@ -25,15 +26,17 @@
             "Qv2ray"
         ]
     ],
-    "post_install": [
-        "if (!(Test-Path \"$persist_dir\\config\\Qv2ray.conf\")) {",
-        "    [PSObject]@{",
-        "        config_version = 11",
-        "        kernelConfig = [PSObject]@{",
-        "            v2CorePath_win = \"$scoopdir\\apps\\v2ray\\current\\v2ray.exe\"",
-        "            v2AssetsPath_win = \"$scoopdir\\apps\\v2ray\\current\"",
+    "pre_install": [
+        "if (-not (Test-Path \"$persist_dir\\config\\Qv2ray.conf\")) {",
+        "    New-Item \"$dir\\config\" -ItemType Directory | Out-Null",
+        "    $current = (appdir 'v2ray' $global) | Join-Path -ChildPath 'current'",
+        "    @{",
+        "        'config_version' = 11",
+        "        'kernelConfig' = @{",
+        "            'v2CorePath_win'   = \"$current\\v2ray.exe\"",
+        "            'v2AssetsPath_win' = \"$current\"",
         "        }",
-        "    } | ConvertTo-Json | Out-File -encoding ASCII \"$persist_dir\\config\\Qv2ray.conf\"",
+        "    } | ConvertTo-Json -Depth 20 | Out-File \"$dir\\config\\Qv2ray.conf\" -Encoding ascii",
         "}"
     ],
     "checkver": "github",
