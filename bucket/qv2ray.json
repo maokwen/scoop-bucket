@@ -1,5 +1,5 @@
 {
-    "version": "2.3.2",
+    "version": "2.4.1",
     "description": "Graphical frontend for v2ray",
     "homepage": "https://github.com/Qv2ray/Qv2ray",
     "license": "GPL-3.0-or-later",
@@ -9,12 +9,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Qv2ray/Qv2ray/releases/download/v2.3.2/Qv2ray.v2.3.2.Windows-x64.7z",
-            "hash": "2538cbde2efed2c757120c4ef183b73c0ba9e7be25a1e05257051174a9d9497e"
+            "url": "https://github.com/Qv2ray/Qv2ray/releases/download/v2.4.1/Qv2ray.v2.4.1.Windows-x64.7z",
+            "hash": "4a03db618e7052ec346452412ee22083ed49fefed5e0b91e964b7308c6415744"
         },
         "32bit": {
-            "url": "https://github.com/Qv2ray/Qv2ray/releases/download/v2.3.2/Qv2ray.v2.3.2.Windows-x86.7z",
-            "hash": "41aeb7876e7c44e2248c733e5e95cba0f83acbef30f7fc2078a27e14c67ac751"
+            "url": "https://github.com/Qv2ray/Qv2ray/releases/download/v2.4.1/Qv2ray.v2.4.1.Windows-x86.7z",
+            "hash": "36d37b46d87c88ededb61fd3ec36f7c97bdd14546018e01d7203fdee41d0a5e4"
         }
     },
     "extract_dir": "deployment",
