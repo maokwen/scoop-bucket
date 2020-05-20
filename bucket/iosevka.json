@@ -1,10 +1,9 @@
-
 {
-    "version": "3.0.0",
+    "version": "3.0.1",
     "license": "MIT",
     "homepage": "https://github.com/be5invis/Iosevka",
-    "url": "https://github.com/be5invis/Iosevka/releases/download/v3.0.0/pkg-iosevka-3.0.0.zip",
-    "hash": "2339a51fd9270d788e13e8e21c357d96983a042c3175aafcc8dce0ceaa4ae52b",
+    "url": "https://github.com/be5invis/Iosevka/releases/download/v3.0.1/pkg-iosevka-3.0.1.zip",
+    "hash": "c1cb6c56aea234f4f8c06f998bedd5989d2e02edfce21d6049f0b535fde95ada",
     "depends": "sudo",
     "installer": {
         "script": [
