@@ -18,7 +18,8 @@
             "    New-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name $fontCollection.Families[-1].Name -Value $_.Name -Force | Out-Null",
             "    $fontCollection.Dispose()",
             "    Copy-Item $_.FullName -destination \"$env:windir\\Fonts\"",
-            "}"
+            "}",
+            "Get-ChildItem $Path | Where{$_.Name -Match \".+-((?!sc).)+-[A-Za-z]+\\.ttf\"} | Remove-Item"
         ]
     },
     "uninstaller": {
