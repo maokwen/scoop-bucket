@@ -15,7 +15,7 @@
     "uninstaller": {
         "script": [
             "if(!(is_admin)) { error \"Admin rights are required, please run 'sudo scoop uninstall $app'\"; exit 1 }",
-            "& \"$env:SystemRoot\\Microsoft.NET\\Framework64\\v4.0.30319\\regasm.exe\" /nologo /codebase \"$dir/EverythingToolbar.dll\""
+            "& \"$env:SystemRoot\\Microsoft.NET\\Framework64\\v4.0.30319\\regasm.exe\" /nologo /unregister \"$dir/EverythingToolbar.dll\""
         ]
     },
     "checkver": "github",
