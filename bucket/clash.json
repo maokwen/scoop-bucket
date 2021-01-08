@@ -2,9 +2,9 @@
     "homepage": "https://github.com/Fndroid/clash_for_windows_pkg",
     "description": "A rule based proxy For Windows base on Clash",
     "license": "GPL-3.0-only",
-    "version": "0.14.0",
-    "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.14.0/Clash.for.Windows-0.14.0-win.7z",
-    "hash": "5dba5f06a9c24123bcc7488747f7e9d617b5ecb6c56c2c3874c8aa2df1231861",
+    "version": "0.14.1",
+    "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.14.1/Clash.for.Windows-0.14.1-win.7z",
+    "hash": "38da00cdd9aa61404708b66a0fdb6dac7bcc2774e1e39126552e682a4c5d23e3",
     "shortcuts": [
         [
             "Clash for Windows.exe",
