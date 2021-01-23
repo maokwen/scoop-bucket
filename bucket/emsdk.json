@@ -1,0 +1,11 @@
+{
+    "homepage": "https://kripken.github.io/emscripten-site/",
+    "version": "nightly",
+    "license": "MIT",
+    "url": "https://github.com/juj/emsdk/archive/master.zip",
+    "extract_dir": "emsdk-master",
+    "bin": [
+        "emsdk.ps1",
+        "emsdk_env.ps1"
+    ]
+}
