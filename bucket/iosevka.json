@@ -1,9 +1,9 @@
 {
-    "version": "5.0.4",
+    "version": "5.0.5",
     "license": "MIT",
     "homepage": "https://github.com/be5invis/Iosevka",
-    "url": "https://github.com/be5invis/Iosevka/releases/download/v5.0.4/ttf-iosevka-5.0.4.zip",
-    "hash": "7d5b8a9aa24ffa937f2dd13c3394184ff71175403cdbc6c52fe9c9b6af6bf7d2",
+    "url": "https://github.com/be5invis/Iosevka/releases/download/v5.0.5/ttf-iosevka-5.0.5.zip",
+    "hash": "850988d6c04655d62c5eb99d68f036a59c1662b5d984534cf8abf56ddccbf27a",
     "depends": "sudo",
     "installer": {
         "script": [
