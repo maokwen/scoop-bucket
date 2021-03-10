@@ -5,6 +5,7 @@
     "version": "0.14.6",
     "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.14.6/Clash.for.Windows-0.14.6-win.7z",
     "hash": "b2a356d85cc74c000b2610f3fc6569b4fe1b975f28ae7504375238ea27e89360",
+    "bin": "Clash for Windows.exe",
     "shortcuts": [
         [
             "Clash for Windows.exe",
