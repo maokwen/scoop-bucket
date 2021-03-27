@@ -13,7 +13,7 @@
     ],
     "checkver": {
         "url": "https://github.com/Tatsu-syo/noMeiryoUI/releases/latest",
-        "re": "TAG-(?<version>[\\d\\.]+)/noMeiryoUI[\\d]+.zip"
+        "regex": "TAG-(?<version>[\\d\\.]+)"
     },
     "autoupdate": {
         "url": "https://github.com/Tatsu-syo/noMeiryoUI/releases/download/$version/noMeiryoUI$majorVersion$minorVersion$patchVersion.zip"
