@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/MaoKwen/DisableSleep",
     "description": "A small program to prevent windows sleep",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "license": "none",
-    "url": "https://github.com/MaoKwen/DisableSleep/releases/download/v0.1.0/DisableSleep.zip",
-    "hash": "ae297664a1861c6b1b0611949214fb2be0f9c2db24e8811c5e96d5ed5a7f6709",
+    "url": "https://github.com/MaoKwen/DisableSleep/releases/download/v0.1.1/DisableSleep.zip",
+    "hash": "d10ac310b332a62f748a192b3739e2dcffcaee193f3e2e9fcf74e557ef5a72f7",
     "bin": "DisableSleep.exe",
     "shortcuts": [
         [
