@@ -1,15 +1,15 @@
 on:
   pull_request:
     types: [opened]
-name: Pull requests
+name: Pull Requests
 jobs:
   pullRequestHandler:
     name: PullRequestHandler
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
-    - name: PullRequestHandler
-      uses: Ash258/Scoop-GithubActions@stable
-      env:
-        GITH_EMAIL: 18361388+MaoKwen@users.noreply.github.com
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/checkout@main
+      - name: PullRequestHandler
+        uses: Ash258/Scoop-GithubActions@stable
+        env:
+          GITH_EMAIL: 18361388+MaoKwen@users.noreply.github.com
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
