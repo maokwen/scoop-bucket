@@ -9,7 +9,7 @@
         "script": [
             "if(!(is_admin)) { error \"Admin rights are required, please run 'sudo scoop install $app'\"; exit 1 }",
             "Add-Type -AssemblyName System.Drawing",
-            "Get-ChildItem $dir\\ttc -filter '*.ttc' | ForEach-Object {",
+            "Get-ChildItem $dir\\ -filter '*.ttc' | ForEach-Object {",
             "    $fontCollection = new-object System.Drawing.Text.PrivateFontCollection",
             "    $fontCollection.AddFontFile($_.fullname)",
             "    echo $fontCollection.Families[-1].Name",
@@ -23,7 +23,7 @@
     "uninstaller": {
         "script": [
             "if(!(is_admin)) { error \"Admin rights are required, please run 'sudo scoop uninstall $app'\"; exit 1 }",
-            "Get-ChildItem $dir\\ttc -filter '*.ttc' | ForEach-Object {",
+            "Get-ChildItem $dir\\ -filter '*.ttc' | ForEach-Object {",
             "    Remove-Item \"$env:windir\\Fonts\\$($_.Name)\" -Force -ErrorAction SilentlyContinue",
             "}",
             "(Get-Content -Path $dir\\fontCollection) | ForEach-Object {",
