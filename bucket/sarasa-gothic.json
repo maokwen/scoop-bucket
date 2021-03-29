@@ -1,17 +1,15 @@
-
 {
     "version": "0.20.0",
     "license": "MIT",
-    "homepage": "https://github.com/be5invis/Sarasa-Gothic-SC",
-    "url": "https://github.com/be5invis/Sarasa-Gothic/releases/download/v0.20.0/sarasa-gothic-ttf-0.20.0.7z",
-    "hash": "1fe17ccb966946f6f20d405373c77ab8ad4b2a888306dbcf69b6219ab0898974",
+    "homepage": "https://github.com/be5invis/Sarasa-Gothic",
+    "url": "https://github.com/be5invis/Sarasa-Gothic/releases/download/v0.20.0/sarasa-gothic-ttc-0.20.0.7z",
+    "hash": "647d556644c2d2ec04dd7f51a9fec1d32d6926331a37a37c10b9e2d64d2ed4a7",
     "depends": "sudo",
     "installer": {
         "script": [
             "if(!(is_admin)) { error \"Admin rights are required, please run 'sudo scoop install $app'\"; exit 1 }",
-            "New-Item $dir\\backup -Type Directory",
             "Add-Type -AssemblyName System.Drawing",
-            "Get-ChildItem $dir -filter 'sarasa-mono-sc-*.ttf' | ForEach-Object {",
+            "Get-ChildItem $dir -filter '*.ttc' | ForEach-Object {",
             "    $fontCollection = new-object System.Drawing.Text.PrivateFontCollection",
             "    $fontCollection.AddFontFile($_.fullname)",
             "    echo $fontCollection.Families[-1].Name",
@@ -19,16 +17,14 @@
             "    New-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name $fontCollection.Families[-1].Name -Value $_.Name -Force | Out-Null",
             "    $fontCollection.Dispose()",
             "    Copy-Item $_.FullName -destination \"$env:windir\\Fonts\"",
-            "    Copy-Item $_.FullName -destination $dir\\backup\\",
             "}",
-            "Remove-Item *.ttf",
-            "Get-ChildItem $Path | Where{$_.Name -Match \".+-((?!sc).)+-[A-Za-z]+\\.ttf\"} | Remove-Item"
+            "Get-ChildItem $Path | Where{$_.Name -Match \".+-((?!sc).)+-[A-Za-z]+\\.ttc\"} | Remove-Item"
         ]
     },
     "uninstaller": {
         "script": [
             "if(!(is_admin)) { error \"Admin rights are required, please run 'sudo scoop uninstall $app'\"; exit 1 }",
-            "Get-ChildItem $dir\\backup -filter 'sarasa-mono-sc-*.ttf' | ForEach-Object {",
+            "Get-ChildItem $dir -filter '*.ttc' | ForEach-Object {",
             "    Remove-Item \"$env:windir\\Fonts\\$($_.Name)\" -Force -ErrorAction SilentlyContinue",
             "}",
             "(Get-Content -Path $dir\\fontCollection) | ForEach-Object {",
@@ -40,6 +36,6 @@
     },
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/be5invis/Sarasa-Gothic/releases/download/v$version/sarasa-gothic-ttf-$version.7z"
+        "url": "https://github.com/be5invis/Sarasa-Gothic/releases/download/v$version/sarasa-gothic-ttc-$version.7z"
     }
 }

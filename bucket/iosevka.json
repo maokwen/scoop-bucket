@@ -1,15 +1,15 @@
 {
-    "version": "5.1.0",
+    "version": "5.1.1",
     "license": "MIT",
     "homepage": "https://github.com/be5invis/Iosevka",
-    "url": "https://github.com/be5invis/Iosevka/releases/download/v5.1.0/super-ttc-iosevka-5.1.0.zip",
-    "hash": "B0E09E70B2EDCFE02056F7AC227BC50B74336D261D178D72C1FF04740BBA540E",
+    "url": "https://github.com/be5invis/Iosevka/releases/download/v5.1.1/super-ttc-iosevka-5.1.1.zip",
+    "hash": "1d7fe3d9f84d62b2ad4195572daf4d31647454d56dc7fa9f5636d6735b9929e9",
     "depends": "sudo",
     "installer": {
         "script": [
             "if(!(is_admin)) { error \"Admin rights are required, please run 'sudo scoop install $app'\"; exit 1 }",
             "Add-Type -AssemblyName System.Drawing",
-            "Get-ChildItem $dir\\ttc -filter '*.ttc' | ForEach-Object {",
+            "Get-ChildItem $dir\\ -filter '*.ttc' | ForEach-Object {",
             "    $fontCollection = new-object System.Drawing.Text.PrivateFontCollection",
             "    $fontCollection.AddFontFile($_.fullname)",
             "    echo $fontCollection.Families[-1].Name",
@@ -23,7 +23,7 @@
     "uninstaller": {
         "script": [
             "if(!(is_admin)) { error \"Admin rights are required, please run 'sudo scoop uninstall $app'\"; exit 1 }",
-            "Get-ChildItem $dir\\ttc -filter '*.ttc' | ForEach-Object {",
+            "Get-ChildItem $dir\\ -filter '*.ttc' | ForEach-Object {",
             "    Remove-Item \"$env:windir\\Fonts\\$($_.Name)\" -Force -ErrorAction SilentlyContinue",
             "}",
             "(Get-Content -Path $dir\\fontCollection) | ForEach-Object {",
