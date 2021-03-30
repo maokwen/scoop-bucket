@@ -1,17 +1,15 @@
 {
-    "version": "0.4.4",
+    "version": "nightly",
     "license": {
         "identifier": "Apache-2.0,MIT,Vim,Freeware(Node.js)",
         "url": "https://github.com/neovim/neovim/blob/master/LICENSE"
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/neovim/neovim/releases/download/nightly/nvim-win64.zip",
-            "hash": "e6d392ec0b3d864353ef36c148cee8ba0322a10f7bc16126d8b884e7dfd2d4b1"
+            "url": "https://github.com/neovim/neovim/releases/download/nightly/nvim-win64.zip"
         },
         "32bit": {
-            "url": "https://github.com/neovim/neovim/releases/download/nightly/nvim-win32.zip",
-            "hash": "933020843f5a538417a0ac5a52e46f507c6a7faab9f3dc44323e54d2fa40a806"
+            "url": "https://github.com/neovim/neovim/releases/download/nightly/nvim-win32.zip"
         }
     },
     "suggest": {
@@ -28,9 +26,6 @@
             "Neovim"
         ]
     ],
-    "checkver": {
-        "github": "https://github.com/neovim/neovim"
-    },
     "autoupdate": {
         "architecture": {
             "64bit": {
