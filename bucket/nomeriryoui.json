@@ -16,6 +16,6 @@
         "regex": "TAG-(?<version>[\\d\\.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/Tatsu-syo/noMeiryoUI/releases/download/$version/noMeiryoUI$majorVersion$minorVersion$patchVersion.zip"
+        "url": "https://github.com/Tatsu-syo/noMeiryoUI/releases/download/TAG-$version/noMeiryoUI$majorVersion$minorVersion$patchVersion.zip"
     }
 }
