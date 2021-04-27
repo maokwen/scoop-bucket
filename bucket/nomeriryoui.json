@@ -2,9 +2,9 @@
     "homepage": "https://github.com/Tatsu-syo/noMeiryoUI",
     "description": "Windows system font setting tool on Windows 8.1/10",
     "license": "GPL-3.0-only",
-    "version": "2.36",
-    "url": "https://github.com/Tatsu-syo/noMeiryoUI/releases/download/TAG-2.36/noMeiryoUI236.zip",
-    "hash": "5fda8d816a1574033c0f521014e7720c9ec4767b5899291c7012642c4179f3d7",
+    "version": "2.41",
+    "url": "https://github.com/Tatsu-syo/noMeiryoUI/releases/download/TAG-2.41/noMeiryoUI241.zip",
+    "hash": "9acb61ab3c9e1d6ba1f0823ba777d4c418fbc0b67a04588442082317868c0293",
     "shortcuts": [
         [
             "noMeiryoUI.exe",
