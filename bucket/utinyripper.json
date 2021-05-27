@@ -1,12 +1,12 @@
 {
     "homepage": "https://github.com/mafaca/UtinyRipper",
-    "version": "17-59-48",
+    "version": "21-19-13",
     "license": "MIT",
     "description": "Tool for ripping assets from Engine resource files",
     "architecture": {
         "64bit": {
-            "url": "https://iweb.dl.sourceforge.net/project/utinyripper/2020-11-02/17-59-48/uTinyRipper_x64.zip",
-            "hash": "md5:63d9a4029fb9fc091d3278ae905519fa"
+            "url": "https://iweb.dl.sourceforge.net/project/utinyripper/2021-05-13/21-19-13/uTinyRipper_x64.zip",
+            "hash": "md5:1f3a751cecf26b5f3a8649e9bf5969b6"
         }
     },
     "shortcuts": [
@@ -18,13 +18,18 @@
     "checkver": {
         "url": "https://sourceforge.net/projects/uTinyRipper/best_release.json",
         "jsonpath": "$.release.filename",
-        "regex": "([\\d.-]+)/uTinyRipper"
+        "re": "/(?<date>[\\d-]+)/([\\d-]+)/uTinyRipper"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://iweb.dl.sourceforge.net/project/utinyripper/2020-11-02/$version/uTinyRipper_x64.zip"
+                "url": "https://iweb.dl.sourceforge.net/project/utinyripper/$matchVc/$matchHead/uTinyRipper_x64.zip"
             }
+        },
+        "hash": {
+            "mode": "json",
+            "url": "https://sourceforge.net/projects/utinyripper/best_release.json",
+            "jp": "$.release.md5sum"
         }
     }
 }
