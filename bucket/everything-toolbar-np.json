@@ -1,0 +1,11 @@
+{
+    "version": "0.6.3",
+    "license": "MIT",
+    "homepage": "https://github.com/stnkl/EverythingToolbar",
+    "url": "https://github.com/stnkl/EverythingToolbar/releases/download/0.6.3/EverythingToolbar-0.6.3.msi",
+    "hash": "55f33b29e9a7b4c50729d96f8826d7def44d112f5342daa8a8f3db6cdb8e97ad",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/stnkl/EverythingToolbar/releases/download/0$version/EverythingToolbar-$version.msi"
+    }
+}
