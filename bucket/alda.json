@@ -2,9 +2,9 @@
     "homepage": "https://alda.io",
     "description": "a music programming language for musicians",
     "license": "Eclipse Public Licensey",
-    "version": "1.4.3",
-    "url": "https://github.com/alda-lang/alda/releases/download/1.4.3/alda.exe",
-    "hash": "0a5db772170fd9723ded4abd748536d8b96c10f7d3ee6e906ec1e0e2f10769f2",
+    "version": "1.4.4",
+    "url": "https://github.com/alda-lang/alda/releases/download/1.4.4/alda.exe",
+    "hash": "e5afee43ee4f294a9b813365c72471e3f13a59a402bfac94e1ddf8c0e29cf188",
     "suggest": {
         "JDK": [
             "java/oraclejdk",
