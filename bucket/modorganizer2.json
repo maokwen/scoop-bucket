@@ -15,7 +15,8 @@
         "downloads",
         "mods",
         "overwrite",
-        "profiles"
+        "profiles",
+        "ModOrganizer.ini"
     ],
     "checkver": "github",
     "autoupdate": {
