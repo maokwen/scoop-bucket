@@ -17,6 +17,6 @@
         "regex": "/releases/tag/(?:v)?([\\d.]+-beta\\d)"
     },
     "autoupdate": {
-        "url": "https://github.com/LANDrop/LANDrop/releases/download/v0.3.0-beta2/LANDrop-$version-win.zip"
+        "url": "https://github.com/LANDrop/LANDrop/releases/download/v$version/LANDrop-$version-win.zip"
     }
 }
