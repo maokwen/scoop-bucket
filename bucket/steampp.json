@@ -2,9 +2,9 @@
     "homepage": "https://steampp.net/",
     "description": "Steam++ is a toolkit that contains a variety of Steam tools, most of which require you to download and install Steam in order to use them.",
     "license": "GPL-3.0-only",
-    "version": "2.3.0",
-    "url": "https://github.com/SteamTools-Team/SteamTools/releases/download/2.3.0/Steam++_win_x86_v2.3.0.7z",
-    "hash": "5da9346c91ccef3d63d85a6257b752502f0cb68d339920d7fdd4f09710e53e15",
+    "version": "2.4.1",
+    "url": "https://github.com/SteamTools-Team/SteamTools/releases/download/2.4.1/Steam++_win_x64_v2.4.1.7z",
+    "hash": "f585575e8c1466f09dd351a9f2a1e0d98669b38c8df6ba0cf405e4e5e9863c12",
     "shortcuts": [
         [
             "Steam++.exe",
