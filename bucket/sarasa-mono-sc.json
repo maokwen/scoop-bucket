@@ -1,9 +1,9 @@
 {
-    "version": "0.32.4",
+    "version": "0.32.5",
     "license": "MIT",
     "homepage": "https://github.com/be5invis/Sarasa-Gothic",
-    "url": "https://github.com/be5invis/Sarasa-Gothic/releases/download/v0.32.4/sarasa-gothic-ttf-0.32.4.7z",
-    "hash": "f401108ee00d4040544833daf76c445f53dd3a119f9ee7920c50fd349d8dbe03",
+    "url": "https://github.com/be5invis/Sarasa-Gothic/releases/download/v0.32.5/sarasa-gothic-ttf-0.32.5.7z",
+    "hash": "39b9ef53e253f50023d3818014b6c48b7dbffb1c55b9d0d8a23073fe88f1adc9",
     "depends": "sudo",
     "installer": {
         "script": [
