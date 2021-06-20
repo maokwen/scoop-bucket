@@ -1,0 +1,66 @@
+{
+    "version": "0.8.2",
+    "license": "MIT",
+    "homepage": "https://sandboxie-plus.com/",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/0.8.2/Sandboxie-Plus-x64-v0.8.2.exe#/setup.ex",
+            "hash": "fe54e7c0b575e9ec87d922c0afa6b3b4c8b9f8329a70b4b8adb419fc8073a823"
+        },
+        "32bit": {
+            "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/0.8.2/Sandboxie-Plus-x86-v0.8.2.exe#/setup.ex",
+            "hash": "ba6714e72726ba26731e499953b8676dc17cc2cd7e79606b34e2123a425173ba"
+        }
+    },
+    "extract_dir": "sandboxie-plus",
+    "installer": {
+        "script": [
+            "if (!(is_admin)) {",
+            "    error \"Administrator rights are required to install $app.\"",
+            "    exit 1",
+            "}",
+            "",
+            "Start-Job {",
+            "    while ($configurator_process -eq $null) {",
+            "        Start-Sleep -Milliseconds 250",
+            "        $configurator_process = Get-Process | Where-Object { $_.name -eq 'SandMan' }",
+            "    }",
+            "",
+            "    $configurator_process | ForEach-Object { Stop-Process -Id $_.Id }",
+            "} | Out-Null",
+            "",
+            "Invoke-ExternalCommand \"$dir\\setup.exe\" -ArgumentList @('/VERYSILENT', '/DIR=\"$dir\"', '/NORESTARTAPPLICATIONS') | Out-Null"
+        ]
+    },
+    "post_install": "Remove-Item -Recurse \"$([Environment]::GetFolderPath('commonstartmenu'))\\Programs\\Sandboxie-Plus\"",
+    "uninstaller": {
+        "script": [
+            "if (!(is_admin)) {",
+            "    error \"Administrator rights are required to uninstall $app.\"",
+            "    exit 1",
+            "}",
+            "Stop-Process -ErrorAction Ignore -Name SandMan",
+            "Stop-Process -ErrorAction Ignore -Name SbieSvc",
+            "& \"$env:ProgramFiles\\Barrier\\unins000.exe\" /VERYSILENT /NOCANCEL /NORESTART"
+        ]
+    },
+    "shortcuts": [
+        [
+            "SandMan.exe",
+            "Sandboxie-Plus"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/sandboxie-plus/Sandboxie"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/$version/Sandboxie-Plus-x64-v$version.exe#/setup.ex"
+            },
+            "32bit": {
+                "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/$version/Sandboxie-Plus-x86-v$version.exe#/setup.ex"
+            }
+        }
+    }
+}
