@@ -14,7 +14,7 @@
     ],
     "checkver": {
         "url": "https://github.com/LANDrop/LANDrop/releases",
-        "regex": "/releases/tag/(?:v)?([\\d.]+-beta\\d)"
+        "regex": "/releases/tag/(?:v)?([\\d\\.]+-beta\\d)"
     },
     "autoupdate": {
         "url": "https://github.com/LANDrop/LANDrop/releases/download/v$version/LANDrop-$version-win.zip"
