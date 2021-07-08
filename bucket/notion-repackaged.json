@@ -13,7 +13,7 @@
     ],
     "checkver": {
         "url": "https://github.com/notion-enhancer/notion-repackaged/releases",
-        "regex": "/releases/tag/v([\\d.](?-\\d))"
+        "regex": "/releases/tag/v([\\d\\.-]+)"
     },
     "autoupdate": {
         "url": "https://github.com/notion-enhancer/notion-repackaged/releases/download/v$version/Notion-Enhanced-$version-win.zip"
