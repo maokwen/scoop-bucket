@@ -1,0 +1,26 @@
+{
+    "homepage": "https://github.com/ruffle-rs/ruffle",
+    "description": "A Flash Player emulator written in Rust",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://github.com/ruffle-rs/ruffle/blob/master/LICENSE.md"
+    },
+    "version": "2021-07-09",
+    "url": "https://github.com/ruffle-rs/ruffle/releases/download/nightly-2021-07-09/ruffle-nightly-2021_07_09-windows-x86_64.zip",
+    "hash": "613f1ebb84943c8295b8164f8014ac1ed67257d9509014b8f6262467445d75ac",
+    "extract_dir": "LANDrop",
+    "shortcuts": [
+        [
+            "ruffle.exe",
+            "ruffle"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/ruffle-rs/ruffle/releases",
+        "regex": "/releases/tag/nightly-(?<yyyy>\\d+)-(?<mm>\\d+)-(?<dd>\\d+)",
+        "replace": "${yyyy}-${mm}-${dd}"
+    },
+    "autoupdate": {
+        "url": "https://github.com/ruffle-rs/ruffle/releases/download/nightly-$version/ruffle-nightly-$match1_$match2_$match3-windows-x86_64.zip"
+    }
+}
