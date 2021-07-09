@@ -7,7 +7,7 @@
     },
     "version": "0.40.0-20200219.65",
     "url": "https://github.com/autotrace/autotrace/releases/download/travis-20200219.65/autotrace-0.40.0-20200219-win64-setup.zip",
-    "hash": "bc35301453dc131ca33d634d8f799f6d2b1c58fa8449d32593b87134033486cf",
+    "hash": "ae13924fdc3beee5bd982cf57e999160b060500904274ee16f42b78dc71c6520",
     "installer": {
         "script": [
             "Expand-7zipArchive -Path \"$dir\\*-setup.exe\" -Removal",
