@@ -1,0 +1,22 @@
+{
+    "homepage": "https://github.com/atom0s/Steamless",
+    "description": "Paste the contents of the clipboard into files.",
+    "version": "3.0.0.11",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://github.com/atom0s/Steamless/blob/master/LICENSE"
+    },
+    "url": "https://github.com/atom0s/Steamless/releases/download/v3.0.0.11/Steamless.v3.0.0.11.-.by.atom0s.7z",
+    "hash": "afcfcbd8e835ee6a687eaafe7a7a0af6ee154015850f371ece291cd657176dd1",
+    "persist": "Steamless.exe.config",
+    "shortcuts": [
+        [
+            "Steamless.exe",
+            "Steamless"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/atom0s/Steamless/releases/download/v$version/Steamless.v$version.-.by.atom0s.7z"
+    }
+}
