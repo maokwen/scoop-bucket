@@ -5,6 +5,7 @@
     "version": "0.12",
     "url": "https://www.wintun.net/builds/wintun-0.12.zip",
     "hash": "eba90e26686ed86595ae0a6d4d3f4f022924b1758f5148a32a91c60cc6e604df",
+    "extract_dir": "wintun/bin/amd64",
     "bin": "wintun.dll",
     "checkver": {
         "url": "https://www.wintun.net",
