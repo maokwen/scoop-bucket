@@ -1,0 +1,26 @@
+{
+    "homepage": "https://github.com/autotrace/autotrace",
+    "description": "Bitmap to vector graphics converter",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://github.com/autotrace/autotrace/blob/master/COPYING"
+    },
+    "version": "0.40.0-20200219.65",
+    "url": "https://github.com/autotrace/autotrace/releases/download/travis-20200219.65/autotrace-0.40.0-20200219-win64-setup.zip",
+    "hash": "bc35301453dc131ca33d634d8f799f6d2b1c58fa8449d32593b87134033486cf",
+    "installer": {
+        "script": [
+            "Expand-7zipArchive -Path \"$dir\\*-setup.exe\" -Removal",
+            "Remove-Item \"$dir\\`$*\" -Recurse -Force"
+        ]
+    },
+    "bin": "autotrace.exe",
+    "checkver": {
+        "url": "https://github.com/autotrace/autotrace/releases",
+        "regex": "travis-(?<date>\\d+).?(?<rev>\\d+)/autotrace-(?<main>[\\d.]+)-\\d+-win64-setup.zip",
+        "replace": "${main}-${date}.${rev}"
+    },
+    "autoupdate": {
+        "url": "https://github.com/autotrace/autotrace/releases/download/travis-${date}.${rev}/autotrace-${main}-${date}-win64-setup.zip"
+    }
+}
