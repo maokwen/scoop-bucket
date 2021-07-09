@@ -1,6 +1,6 @@
 {
     "homepage": "https://github.com/atom0s/Steamless",
-    "description": "Paste the contents of the clipboard into files.",
+    "description": "A DRM remover of the SteamStub variants",
     "version": "3.0.0.11",
     "license": {
         "identifier": "Freeware",
