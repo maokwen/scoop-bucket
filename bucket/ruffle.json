@@ -16,10 +16,10 @@
     ],
     "checkver": {
         "url": "https://github.com/ruffle-rs/ruffle/releases",
-        "regex": "/releases/tag/nightly-(?<yyyy>\\d+)-(?<mm>\\d+)-(?<dd>\\d+)",
-        "replace": "${yyyy}-${mm}-${dd}"
+        "regex": "/releases/tag/nightly-(?<year>\\d+)-(?<month>\\d+)-(?<day>\\d+)",
+        "replace": "${year}-${month}-${day}"
     },
     "autoupdate": {
-        "url": "https://github.com/ruffle-rs/ruffle/releases/download/nightly-$version/ruffle-nightly-$match1_$match2_$match3-windows-x86_64.zip"
+        "url": "https://github.com/ruffle-rs/ruffle/releases/download/nightly-$version/ruffle-nightly-$matchYear_$matchMonth_$matchDay-windows-x86_64.zip"
     }
 }
