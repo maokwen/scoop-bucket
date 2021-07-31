@@ -1,16 +1,16 @@
 {
     "homepage": "https://bitbucket.org/liule/snipaste/downloads/?tab=downloads",
-    "version": "2.6.2-Beta",
+    "version": "2.6.3-Beta",
     "license": "Freeware",
     "description": "Snip & Paste, a simple but powerful snipping tool.",
     "architecture": {
         "64bit": {
-            "url": "https://bitbucket.org/liule/snipaste/downloads/Snipaste-2.6.2-Beta-x64.zip",
-            "hash": "sha1:8a3e9455ba1e3400cfda1527cae470d3c6b0bd1b"
+            "url": "https://bitbucket.org/liule/snipaste/downloads/Snipaste-2.6.3-Beta-x64.zip",
+            "hash": "sha1:cbc40a00821ade6fcafd26d2910a6c6986109f5b"
         },
         "32bit": {
-            "url": "https://bitbucket.org/liule/snipaste/downloads/Snipaste-2.6.2-Beta-x86.zip",
-            "hash": "sha1:89c86fd47b6f148df60eeef83262476df1145cec"
+            "url": "https://bitbucket.org/liule/snipaste/downloads/Snipaste-2.6.3-Beta-x86.zip",
+            "hash": "sha1:12c4a2ad4a2f8a6fa3400f4c3121c846efaba6b2"
         }
     },
     "pre_install": "if (!(Test-Path \"$persist_dir\\config.ini\")) { Set-Content \"$dir\\config.ini\" '' -Encoding ASCII }",
