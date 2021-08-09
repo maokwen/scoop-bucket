@@ -1,11 +1,6 @@
 {
     "recommendations": [
         "EditorConfig.EditorConfig",
-        "ms-vscode.PowerShell",
-        "redhat.vscode-yaml",
-        "fabiospampinato.vscode-terminals",
-        "yzhang.markdown-all-in-one",
-        "DavidAnson.vscode-markdownlint",
-        "usernamehw.errorlens",
-    ],
+        "ms-vscode.PowerShell"
+    ]
 }
