@@ -1,0 +1,27 @@
+{
+    "version": "9.5.4",
+    "license": "Apache-2.0",
+    "homepage": "https://scheme.com/",
+    "url": "https://github.com/cisco/ChezScheme/releases/download/v9.5.4/ChezScheme9.5.4.exe#/setup.exe",
+    "hash": "921bade057b2d97d38902eea6bb02df7bb631b75e8d7087f6749dd7c3ba8a32a",
+    "installer": {
+        "file": "setup.exe",
+        "args": [
+            "/quiet",
+            "/verysilent",
+            "/dir=\"$dir\"",
+            "/norestart"
+        ]
+    },
+   "bin": [
+       "bin\\ta6nt\\scheme.exe",
+       "bin\\ta6nt\\petite.exe"
+   ],
+    "shortcuts": [["bin\\ta6nt\\scheme.exe", "Scheme"]],
+    "checkver": {
+        "github": "https://github.com/cisco/ChezScheme"
+    },
+    "autoupdate": {
+        "url": "https://github.com/cisco/ChezScheme/releases/download/v$version/ChezScheme$version.exe#/setup.exe"
+    }
+}
