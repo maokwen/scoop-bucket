@@ -1,9 +1,9 @@
 {
-    "version": "7.3.1",
+    "version": "10.0.0",
     "license": "MIT",
     "homepage": "https://github.com/be5invis/Iosevka",
-    "url": "https://github.com/be5invis/Iosevka/releases/download/v7.3.1/super-ttc-iosevka-7.3.1.zip",
-    "hash": "0df1086089bdca71812b4a8b3a8c139280ce47ae063e353a4cc26cae47831f7b",
+    "url": "https://github.com/be5invis/Iosevka/releases/download/v10.0.0/super-ttc-iosevka-10.0.0.zip",
+    "hash": "99f1a52dfab04bece8831c46aa0cf45c417e4b617de551b7e427b96daee72a63",
     "depends": "sudo",
     "installer": {
         "script": [
