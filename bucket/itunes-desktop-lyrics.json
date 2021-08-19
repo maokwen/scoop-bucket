@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/lujjjh/itunes-desktop-lyrics-windows",
     "description": "A third-party iTunes addon to show the lyrics on the desktop",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "license": "MIT",
-    "url": "https://github.com/lujjjh/itunes-desktop-lyrics-windows/releases/download/v0.0.5/itunes-desktop-lyrics-windows.exe",
-    "hash": "98771205bf31b83fefc9617b3cb13d210e8ce519b6aae66b2c4fa4d2d0bd6ef4",
+    "url": "https://github.com/lujjjh/itunes-desktop-lyrics-windows/releases/download/v0.0.6/itunes-desktop-lyrics-windows.exe",
+    "hash": "7285da49519816c7c4d2e5cd8b2efc9bf60adbc4a6367e90c0c8b3a2551cd13e",
     "shortcuts": [
         [
             "itunes-desktop-lyrics-windows.exe",
