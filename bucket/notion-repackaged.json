@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/notion-enhancer/notion-repackaged",
     "description": "Notion Desktop builds with Notion Enhancer",
-    "version": "2.0.16-3",
+    "version": "2.0.16-4",
     "license": "MIT",
-    "url": "https://github.com/notion-enhancer/notion-repackaged/releases/download/v2.0.16-3/Notion-Enhanced-2.0.16-3-win.zip",
-    "hash": "8a349b7e44022a84846810761b190a3312a1e6f58782ecd743eb3886c650acce",
+    "url": "https://github.com/notion-enhancer/notion-repackaged/releases/download/v2.0.16-4/Notion-Enhanced-2.0.16-4-win.zip",
+    "hash": "4e26aa92f3cc7278fadac1b772f58be43ef6df6d94627dbc6f52be89a1fcf08e",
     "shortcuts": [
         [
             "Notion Enhanced.exe",
