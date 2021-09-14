@@ -1,15 +1,15 @@
 {
-    "version": "0.9.3",
+    "version": "0.9.6",
     "license": "MIT",
     "homepage": "https://sandboxie-plus.com/",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/0.9.3/Sandboxie-Plus-x64-v0.9.3.exe#/setup.exe",
-            "hash": "cd3adf9639240a0341a2aed977db58e2a6b5d56b78849bc21f5f70fc0890d8e8"
+            "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/0.9.6/Sandboxie-Plus-x64-v0.9.6.exe#/setup.exe",
+            "hash": "12ba2e919271dff303a1d6e0abd6925ca43c029ef820c16788a22fe20cfd3c27"
         },
         "32bit": {
-            "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/0.9.3/Sandboxie-Plus-x86-v0.9.3.exe#/setup.exe",
-            "hash": "4d234d83fef25eee112d2d2673fe3fdfa276c6149c37400d14441baa5ba32396"
+            "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/0.9.6/Sandboxie-Plus-x86-v0.9.6.exe#/setup.exe",
+            "hash": "8ec47017ef3b0de5fa211c96b9f9592f2b2b7f639470ecaf048b81808cf0c36b"
         }
     },
     "extract_dir": "sandboxie-plus",
