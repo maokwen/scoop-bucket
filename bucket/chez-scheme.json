@@ -13,11 +13,16 @@
             "/norestart"
         ]
     },
-   "bin": [
-       "bin\\ta6nt\\scheme.exe",
-       "bin\\ta6nt\\petite.exe"
-   ],
-    "shortcuts": [["bin\\ta6nt\\scheme.exe", "Scheme"]],
+    "bin": [
+        "bin\\ta6nt\\scheme.exe",
+        "bin\\ta6nt\\petite.exe"
+    ],
+    "shortcuts": [
+        [
+            "bin\\ta6nt\\scheme.exe",
+            "Scheme"
+        ]
+    ],
     "checkver": {
         "github": "https://github.com/cisco/ChezScheme"
     },
