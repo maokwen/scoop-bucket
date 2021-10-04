@@ -5,9 +5,9 @@
         "identifier": "Freeware",
         "url": "https://github.com/ruffle-rs/ruffle/blob/master/LICENSE.md"
     },
-    "version": "2021-10-03",
-    "url": "https://github.com/ruffle-rs/ruffle/releases/download/nightly-2021-10-03/ruffle-nightly-2021_10_03-windows-x86_64.zip",
-    "hash": "da33c1e8649964731c0638f4286eb97156fac057b18da05a66b5c3950e877057",
+    "version": "2021-10-04",
+    "url": "https://github.com/ruffle-rs/ruffle/releases/download/nightly-2021-10-04/ruffle-nightly-2021_10_04-windows-x86_64.zip",
+    "hash": "6be289aba93a036228f5ca6bd4ba7af18e0a453f37c82048af8c5444bab1ba1e",
     "shortcuts": [
         [
             "ruffle.exe",
