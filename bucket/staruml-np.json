@@ -2,9 +2,9 @@
     "homepage": "https://staruml.io/",
     "description": "A sophisticated software modeler for agile and concise modeling",
     "license": "GPL-3.0-only",
-    "version": "4.1.4",
-    "url": "https://staruml.io/download/releases-v4/StarUML%20Setup%204.1.4.exe",
-    "hash": "00d27f727b7bd79dd146ac4d091c7371a0aabceab69c12c147e3cec539cf0894",
+    "version": "4.1.5",
+    "url": "https://staruml.io/download/releases-v4/StarUML%20Setup%204.1.5.exe",
+    "hash": "6780070995082e90350115f40ff1f33958bfe9e59ae4ed32ace644d9854879c8",
     "shortcuts": [
         [
             "StarUML.exe",
