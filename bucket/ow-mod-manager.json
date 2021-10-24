@@ -1,10 +1,10 @@
 {
     "homepage": "https://outerwildsmods.com/",
     "description": "Mod manager for Outer Wilds",
-    "version": "1.4.0",
+    "version": "1.5.0",
     "license": "MIT",
-    "url": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.4.0/OuterWildsModManager-Portable.zip",
-    "hash": "5d80b0ca7e3a70365aa22be6b6008945572fb16e75c6cce0a23a606e89fce96c",
+    "url": "https://github.com/Raicuparta/ow-mod-manager/releases/download/v1.5.0/OuterWildsModManager-Portable.zip",
+    "hash": "10af05d9b7cba2cbcded3ced91e763adb8dd9e3e7025b35d8e9128d24f02d7fa",
     "shortcuts": [
         [
             "OuterWildsModManager.exe",
