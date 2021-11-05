@@ -1,9 +1,9 @@
 {
-    "version": "9.5.4",
+    "version": "9.5.6",
     "license": "Apache-2.0",
     "homepage": "https://scheme.com/",
-    "url": "https://github.com/cisco/ChezScheme/releases/download/v9.5.4/ChezScheme9.5.4.exe#/setup.exe",
-    "hash": "921bade057b2d97d38902eea6bb02df7bb631b75e8d7087f6749dd7c3ba8a32a",
+    "url": "https://github.com/cisco/ChezScheme/releases/download/v9.5.6/ChezScheme9.5.6.exe#/setup.exe",
+    "hash": "57742f6a6fade4f6190bff250053c6007d4d810b942b0e292dc96bf2a3e0e5a9",
     "installer": {
         "file": "setup.exe",
         "args": [
