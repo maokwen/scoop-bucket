@@ -1,10 +1,10 @@
 {
-    "homepage": "https://github.com/Kyome22/RunCat_for_windowsn",
+    "homepage": "https://github.com/Kyome22/RunCat_for_windows",
     "description": "A cute running cat animation on your windows taskbar",
     "license": "Apache-2.0",
-    "version": "1.9",
-    "url": "https://github.com/Kyome22/RunCat_for_windows/releases/download/1.9/RunCat_x64_without_netcore.zip",
-    "hash": "476bbe5e0f43f61309502200347f2905fe1c8d47584cad4d42109312b490ba32",
+    "version": "1.10",
+    "url": "https://github.com/Kyome22/RunCat_for_windows/releases/download/1.10/RunCat_x64.zip",
+    "hash": "6715019acf4e436193155028a44bbb918db511ecd5c01342d7d6e74146f58ba0",
     "depends": "dotnet-sdk",
     "shortcuts": [
         [
@@ -14,6 +14,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/Kyome22/RunCat_for_windows/releases/download/$version/RunCat_x64_without_netcore.zip"
+        "url": "https://github.com/Kyome22/RunCat_for_windows/releases/download/$version/RunCat_x64.zip"
     }
 }
