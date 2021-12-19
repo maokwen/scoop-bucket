@@ -20,6 +20,6 @@
         "re": "BBDown_v(?<version>[\\d\\w.]+)_(?<date>\\d+)_win-x64(?<suffix>.*?)\\.zip"
     },
     "autoupdate": {
-        "url": "https://github.com/nilaoda/BBDown/releases/download/$version/BBDown_v$version_$date_win-x64$suffix.zip"
+        "url": "https://github.com/nilaoda/BBDown/releases/download/$version/BBDown_v$version_$matchDate_win-x64$matchSuffix.zip"
     }
 }
