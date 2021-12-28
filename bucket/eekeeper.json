@@ -18,7 +18,7 @@
         "}"
     ],
     "checkver": {
-        "url": "https://downloads.sourceforge.net/project/eekeeper/best_release.json",
+        "url": "https://sourceforge.net/projects/eekeeper/best_release.json",
         "jsonpath": "$.release.filename",
         "regex": "/EEKeeper ([\\d.]+).zip"
     },
