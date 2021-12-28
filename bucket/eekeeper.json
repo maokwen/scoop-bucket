@@ -3,7 +3,7 @@
     "version": "1.0.4.0",
     "license": "GPL-2.0-only",
     "description": "Saved game editor for Beamdog's Enhanced Editions.",
-    "url": "https://sourceforge.net/projects/eekeeper/files/EEKeeper%201.0.4.0.zip/download",
+    "url": "https://downloads.sourceforge.net/project/eekeeper/EEKeeper%201.0.4.0.zip",
     "hash": "62c3893b8a7c3bcec1805f86038c3720bec766efb54dbc5351a12523acbb7859",
     "shortcuts": [
         [
@@ -18,11 +18,11 @@
         "}"
     ],
     "checkver": {
-        "url": "https://sourceforge.net/projects/eekeeper/best_release.json",
+        "url": "https://downloads.sourceforge.net/project/eekeeper/best_release.json",
         "jsonpath": "$.release.filename",
         "regex": "/EEKeeper ([\\d.]+).zip"
     },
     "autoupdate": {
-        "url": "https://sourceforge.net/projects/eekeeper/files/EEKeeper%20$version.zip/download"
+        "url": "https://downloads.sourceforge.net/project/eekeeper/EEKeeper%20$version.zip"
     }
 }

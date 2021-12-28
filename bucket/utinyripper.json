@@ -5,7 +5,7 @@
     "description": "Tool for ripping assets from Engine resource files",
     "architecture": {
         "64bit": {
-            "url": "https://iweb.dl.sourceforge.net/project/utinyripper/2021-05-13/21-19-13/uTinyRipper_x64.zip",
+            "url": "https://downloads.sourceforge.net/project/utinyripper/2021-05-13/21-19-13/uTinyRipper_x64.zip",
             "hash": "md5:1f3a751cecf26b5f3a8649e9bf5969b6"
         }
     },
@@ -23,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://iweb.dl.sourceforge.net/project/utinyripper/$matchVc/$matchHead/uTinyRipper_x64.zip"
+                "url": "https://downloads.sourceforge.net/project/utinyripper/$matchVc/$matchHead/uTinyRipper_x64.zip"
             }
         },
         "hash": {
