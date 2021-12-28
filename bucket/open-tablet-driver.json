@@ -11,9 +11,7 @@
             "OpenTabletDriver"
         ]
     ],
-    "persist": [
-        "Configurations"
-    ],
+    "persist": "Configurations",
     "checkver": {
         "github": "https://github.com/OpenTabletDriver/OpenTabletDriver"
     },
