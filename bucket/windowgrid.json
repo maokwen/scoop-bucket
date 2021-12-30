@@ -11,14 +11,12 @@
             "WindowGrid"
         ]
     ],
-    "pre_install":[
+    "pre_install": [
         "if (!(Test-Path \"$persist_dir\\WindowGrid.settings\")) {",
         "    New-Item \"$dir\\WindowGrid.settings\" -Type File | Out-Null",
         "}"
     ],
-    "persist":[
-        "WindowGrid.settings"
-    ],
+    "persist": "WindowGrid.settings",
     "checkver": {
         "url": "https://bitbucket.org/joshua_wilding/windowgrid-binaries/downloads/",
         "regex": "WindowGrid_([\\d.]+).zip"
