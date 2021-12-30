@@ -11,7 +11,10 @@
             "OpenTabletDriver"
         ]
     ],
-    "persist": "Configurations",
+    "persist": [
+        "Configurations",
+        "VMulti64"
+    ],
     "checkver": {
         "github": "https://github.com/OpenTabletDriver/OpenTabletDriver"
     },

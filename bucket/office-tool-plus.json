@@ -4,7 +4,9 @@
     "description": "An office deployment tool",
     "homepage": "https://otp.landian.vip",
     "url": "https://github.com/YerongAI/Office-Tool/releases/download/v8.2.9.2/Office_Tool_v8.2.9.2.zip",
+    "hash": "2717fde311bec9ba9800e6aec139cf060b8b1301a9bed07ce60369f3d4166b32",
     "extract_dir": "Office Tool",
+    "persist": "files",
     "suggest": {
         ".Net SDK": "dotnet-sdk"
     },
