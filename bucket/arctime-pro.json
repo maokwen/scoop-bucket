@@ -5,6 +5,7 @@
     "homepage": "https://arctime.org",
     "url": "http://dl.arctime.cn/ARCTIME_PRO_3.1.1_WIN64HD.rar",
     "hash": "785a5a4c9be4685506a2fa04c29ae2f91d7ba8a548e8b8bf2369a42466108a7a",
+    "extract_dir": "ARCTIME_PRO_3.1.1_WIN64HD",
     "shortcuts": [
         [
             "Arctime Pro.exe",
@@ -16,6 +17,7 @@
         "regex": "http://dl.arctime.cn/ARCTIME_PRO_([\\d\\.]+)_WIN64HD.rar"
     },
     "autoupdate": {
-        "url": "http://dl.arctime.cn/ARCTIME_PRO_$version_WIN64HD.rar"
+        "url": "http://dl.arctime.cn/ARCTIME_PRO_$version_WIN64HD.rar",
+        "extract_dir": "ARCTIME_PRO_$version_WIN64HD"
     }
 }
