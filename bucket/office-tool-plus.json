@@ -1,0 +1,14 @@
+{
+    "version": "nightly",
+    "license":"Unlicense",
+    "description": "An office deployment tool",
+    "homepage": "https://otp.landian.vip",
+    "url": "https://otp.landian.vip/redirect/download.php?type=normal",
+    "extract_dir": "Office Tool",
+    "shortcuts": [
+        [
+            "Office Tool Plus.exe",
+            "Office Tool Plus"
+        ]
+    ]
+}
