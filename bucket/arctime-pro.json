@@ -12,7 +12,7 @@
             "Arctime Pro"
         ]
     ],
-    "checkver":{
+    "checkver": {
         "url": "https://arctime.org/download.html",
         "regex": "http://dl.arctime.cn/ARCTIME_PRO_([\\d\\.]+)_WIN64HD.rar"
     },

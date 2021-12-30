@@ -1,0 +1,27 @@
+{
+    "version": "2.18",
+    "description": "Nonblurry scaling of games in Windows 7+",
+    "homepage": "https://tanalin.com/en/projects/integer-scaler",
+    "license": "Unlicense",
+    "url": "https://dl.tanalin.com/projects/integer-scaler/IntegerScaler-2.18.7z",
+    "hash": "ddd7e6e4d6c51460c25959f838773185bb34f5ac847f089fec28cb982e6f3975",
+    "persist": "settings",
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\settings\")) {",
+        "    New-Item \"$dir\\settings\" -Type File | Out-Null",
+        "}"
+    ],
+    "shortcuts": [
+        [
+            "IntegerScaler_64bit.exe",
+            "IntegerScaler"
+        ]
+    ],
+    "checkver": {
+        "url": "https://tanalin.com/en/projects/integer-scaler",
+        "regex": "IntegerScaler-([\\d\\.]+).7z"
+    },
+    "autoupdate": {
+        "url": "https://dl.tanalin.com/projects/integer-scaler/IntegerScaler-$version.7z"
+    }
+}

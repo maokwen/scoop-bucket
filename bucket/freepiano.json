@@ -4,7 +4,7 @@
     "license": "GPL-2.0-only",
     "description": "A virtual MIDI keyboard and a piano for Window",
     "url": "http://downloads.sourceforge.net/project/freepiano/freepiano_2.2.2.1_win64.zip",
-    "hash": "md5:7b7751ad1fb4d96dbcadc6093a8601b1",
+    "hash": "md5:76a6f13923e80e0236ba7814834ee4ea",
     "extract_dir": "freepiano",
     "shortcuts": [
         [
