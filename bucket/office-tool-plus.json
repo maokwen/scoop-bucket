@@ -1,14 +1,21 @@
 {
-    "version": "nightly",
-    "license":"Unlicense",
+    "version": "8.2.9.2",
+    "license": "GPL-3.0-only",
     "description": "An office deployment tool",
     "homepage": "https://otp.landian.vip",
-    "url": "https://otp.landian.vip/redirect/download.php?type=normal",
+    "url": "https://github.com/YerongAI/Office-Tool/releases/download/v8.2.9.2/Office_Tool_v8.2.9.2.zip",
     "extract_dir": "Office Tool",
+    "suggest": {
+        ".Net SDK": "dotnet-sdk"
+    },
     "shortcuts": [
         [
             "Office Tool Plus.exe",
             "Office Tool Plus"
         ]
-    ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/YerongAI/Office-Tool/releases/download/v$version/Office_Tool_v$version.zip"
+    }
 }

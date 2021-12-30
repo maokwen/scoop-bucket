@@ -4,7 +4,6 @@
     "license": "Unlicense",
     "description": "A utility for pro gamers to quickly view, customize, and fine-tune the onboard memory of a compatible Logitech G mouse",
     "url": "https://download01.logi.com/web/ftp/pub/techsupport/gaming/OnboardMemoryManager.exe",
-    "hash": "8673556047db92584691d4e81c5a85c1b3a63ab7806f67220db10c070413fc37",
     "shortcuts": [
         [
             "OnboardMemoryManager.exe",
