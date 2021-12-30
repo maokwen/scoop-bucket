@@ -1,0 +1,21 @@
+{
+    "version": "3.1.1",
+    "description": "A powerful subtitle production tool",
+    "license": "none",
+    "homepage": "https://arctime.org",
+    "url": "http://dl.arctime.cn/ARCTIME_PRO_3.1.1_WIN64HD.rar",
+    "hash": "785a5a4c9be4685506a2fa04c29ae2f91d7ba8a548e8b8bf2369a42466108a7a",
+    "shortcuts": [
+        [
+            "Arctime Pro.exe",
+            "Arctime Pro"
+        ]
+    ],
+    "checkver":{
+        "url": "https://arctime.org/download.html",
+        "regex": "http://dl.arctime.cn/ARCTIME_PRO_([\\d\\.]+)_WIN64HD.rar"
+    },
+    "autoupdate": {
+        "url": "http://dl.arctime.cn/ARCTIME_PRO_$version_WIN64HD.rar"
+    }
+}
