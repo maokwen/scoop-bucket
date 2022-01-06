@@ -1,16 +1,16 @@
 {
-    "version": "1.0.6",
+    "version": "1.0.7",
     "license": "MIT",
     "homepage": "https://sandboxie-plus.com/",
     "description": "A open source sandbox-based isolation software",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/1.0.6/Sandboxie-Plus-x64-v1.0.6.exe#/setup.exe",
-            "hash": "4122aa1076ef4754c73dc2dbd29850c5f658efcbc9665da308da07c3b1a17b11"
+            "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/1.0.7/Sandboxie-Plus-x64-v1.0.7.exe#/setup.exe",
+            "hash": "7232b213c62ab12179e38118b05079b4bd394758d24964d17a7eed9bd3de7259"
         },
         "32bit": {
-            "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/1.0.6/Sandboxie-Plus-x86-v1.0.6.exe#/setup.exe",
-            "hash": "92ff07cd68dd59ba32866750d4b3facb757a4b3b2815a824a6c6cbac392f3011"
+            "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/1.0.7/Sandboxie-Plus-x86-v1.0.7.exe#/setup.exe",
+            "hash": "c614b604edfe3c65aea8f456d6a86e7fa3aea6af1cf6a65d14f9ad2c9e86d22d"
         }
     },
     "extract_dir": "sandboxie-plus",
