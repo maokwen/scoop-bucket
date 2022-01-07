@@ -1,0 +1,21 @@
+{
+    "homepage": "https://bluepointlilac.github.io/ContextMenuManager/",
+    "description": "Windows context menu manager",
+    "version": "2.4.5",
+    "license": "MIT",
+    "url": "https://github.com/SteamRE/DepotDownloader/releases/download/DepotDownloader_2.4.5/depotdownloader-2.4.5.zip",
+    "hash": "85e25ea126f01b1d5afeb4c4d0f65d7d0a91262c7e7692ab994c81f9a2a4425a",
+    "shortcuts": [
+        [
+            "DepotDownloader.exe",
+            "Depot Downloader"
+        ]
+    ],
+    "checkver": {
+        "url" : "https://github.com/SteamRE/DepotDownloader/releases",
+        "regex": "DepotDownloader_([\\d\\.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/SteamRE/DepotDownloader/releases/download/DepotDownloader_$version/depotdownloader-$version.zip"
+    }
+}
