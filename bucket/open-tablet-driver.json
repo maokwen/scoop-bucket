@@ -2,9 +2,9 @@
     "homepage": "http://opentabletdriver.net",
     "description": "Open source, cross-platform, user-mode tablet driver",
     "license": "LGPL-3.0-only",
-    "version": "0.5.3.3",
-    "url": "https://github.com/OpenTabletDriver/OpenTabletDriver/releases/download/v0.5.3.3/OpenTabletDriver.win-x64.zip",
-    "hash": "42647f688074b8b1e15345ed08c8a9f2e682981a44c12b1ac5e6037876c911a3",
+    "version": "0.6.0",
+    "url": "https://github.com/OpenTabletDriver/OpenTabletDriver/releases/download/v0.6.0/OpenTabletDriver.win-x64.zip",
+    "hash": "122e3fb32f7460b6298f7350d66fc31ac2e5cabe5b99721634a1a2730f694feb",
     "shortcuts": [
         [
             "OpenTabletDriver.UX.Wpf.exe",
