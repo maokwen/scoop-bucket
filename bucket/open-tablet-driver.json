@@ -4,7 +4,7 @@
     "license": "LGPL-3.0-only",
     "version": "0.6.0",
     "url": "https://github.com/OpenTabletDriver/OpenTabletDriver/releases/download/v0.6.0/OpenTabletDriver.win-x64.zip",
-    "hash": "122e3fb32f7460b6298f7350d66fc31ac2e5cabe5b99721634a1a2730f694feb",
+    "hash": "5e373dc8f059cb73b669b67ff8eced96eea377785b022d7e291cbedac5e4159d",
     "shortcuts": [
         [
             "OpenTabletDriver.UX.Wpf.exe",
