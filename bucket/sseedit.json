@@ -24,7 +24,8 @@
         "SSEEdit Cache"
     ],
     "checkver": {
-        "github": "https://github.com/TES5Edit/TES5Edit"
+        "url": "https://github.com/TES5Edit/TES5Edit",
+        "regex": "xedit-([\\d\\.]+)"
     },
     "autoupdate": {
         "url": "https://github.com/TES5Edit/TES5Edit/releases/download/xedit-$version/xEdit.$version.7z"
