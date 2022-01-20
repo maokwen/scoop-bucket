@@ -59,7 +59,6 @@
         "geoip.dat",
         "geoip-only-cn-private.dat",
         "geosite.dat"
-
     ],
     "checkver": "github",
     "autoupdate": {

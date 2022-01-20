@@ -12,7 +12,7 @@
         ]
     ],
     "checkver": {
-        "url" : "https://github.com/SteamRE/DepotDownloader/releases",
+        "url": "https://github.com/SteamRE/DepotDownloader/releases",
         "regex": "DepotDownloader_([\\d\\.]+)"
     },
     "autoupdate": {
