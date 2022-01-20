@@ -14,7 +14,7 @@
     ],
     "checkver": {
         "url": "https://arctime.org/download.html",
-        "regex": "http://dl.arctime.cn/ARCTIME_PRO_([\\d\\.]+)_WIN64HD.rar"
+        "regex": "ARCTIME_PRO_([\\d\\.]+)_WIN64HD.rar"
     },
     "autoupdate": {
         "url": "http://dl.arctime.cn/ARCTIME_PRO_$version_WIN64HD.rar",
