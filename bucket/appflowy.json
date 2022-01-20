@@ -12,7 +12,9 @@
             "AppFlowy"
         ]
     ],
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/AppFlowy-IO/appflowy"
+    },
     "autoupdate": {
         "url": "https://github.com/AppFlowy-IO/appflowy/releases/download/$version/AppFlowy-Windows.zip"
     }
