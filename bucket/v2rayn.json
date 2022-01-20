@@ -51,7 +51,15 @@
     "persist": [
         "user-wininet.json",
         "config.json",
-        "guiNConfig.json"
+        "guiNConfig.json",
+        "v2ray.exe",
+        "xray.exe",
+        "wv2ray.exe",
+        "v2ctl.exe",
+        "geoip.dat",
+        "geoip-only-cn-private.dat",
+        "geosite.dat"
+
     ],
     "checkver": "github",
     "autoupdate": {
