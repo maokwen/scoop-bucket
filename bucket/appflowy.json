@@ -16,6 +16,6 @@
         "github": "https://github.com/AppFlowy-IO/appflowy"
     },
     "autoupdate": {
-        "url": "https://github.com/AppFlowy-IO/appflowy/releases/download/$version/AppFlowy-Windows.zip"
+        "url": "https://github.com/AppFlowy-IO/AppFlowy/releases/download/$version/AppFlowy-windows-x86.zip"
     }
 }
