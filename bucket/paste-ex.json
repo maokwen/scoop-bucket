@@ -16,6 +16,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/huiyadanli/PasteEx/releases/download/$version/PasteEx.v$version.zip#/dl.7z"
+        "url": "https://github.com/huiyadanli/PasteEx/releases/download/v$version/PasteEx.v$version.zip#/dl.7z"
     }
 }

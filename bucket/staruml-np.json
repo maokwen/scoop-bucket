@@ -16,6 +16,6 @@
         "regex": ">(\\d\\.\\d\\.\\d)<"
     },
     "autoupdate": {
-        "url": "https://staruml.io/download/releases-v4/StarUML%20Setup%20$version.exe"
+        "url": "https://staruml.io/download/releases-v5/StarUML%20Setup%20$version.exe"
     }
 }
