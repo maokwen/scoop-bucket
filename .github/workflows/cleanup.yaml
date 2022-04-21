@@ -14,7 +14,7 @@ jobs:
 
     steps:
     - name: Prune cancelled/skipped runs
-      uses: actions/github-script@v5
+      uses: actions/github-script@v6
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         script: |
@@ -44,14 +44,14 @@ jobs:
           }
 
     - name: Prune runs older than 30 days
-      uses: actions/github-script@v5
+      uses: actions/github-script@v6
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         script: |
-          const days_to_expiration = 30;
+          const days_to_expiration = 10;
           const ms_in_day = 86400000;
           const now = Date.now();
-          const pages = 5;
+          const pages = 30;
 
           // we don't want to prune old runs from test.yml
           // because we track the duration of runs over time
@@ -87,6 +87,43 @@ jobs:
 
           for (const run of runs_to_delete) {
             console.log(`Run id ${run[0]} of '${run[1]}' is older than ${days_to_expiration} days. Deleting...`);
+            try {
+              await github.rest.actions.deleteWorkflowRun({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                run_id: run[0]
+              });
+            } catch (error) {
+              // ignore errors
+            }
+          }
+    - name: Prune runs of the cleanup workflow itself
+      uses: actions/github-script@v6
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        script: |
+          const pages = 30;
+
+          let runs_to_delete = [];
+
+          for (let page = 0; page < pages; page += 1) {
+            let response = await github.rest.actions.listWorkflowRuns({
+              owner: context.repo.owner,
+              page: page,
+              per_page: 100,
+              repo: context.repo.repo,
+              workflow_id: 'cleanup.yaml'
+            });
+
+            if (response.data.workflow_runs.length > 0) {
+              for (const run of response.data.workflow_runs) {
+                runs_to_delete.push([run.id, run.name]);
+              }
+            }
+          }
+
+          for (const run of runs_to_delete) {
+            console.log(`[Deleting] Run id ${run[0]} of '${run[1]}'.`);
             try {
               await github.rest.actions.deleteWorkflowRun({
                 owner: context.repo.owner,
