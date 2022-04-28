@@ -1,69 +1,26 @@
+// Configure PSScriptAnalyzer settings
 {
-    "files.associations": {
-        "*.wsb": "xml",
+    "[powershell]": {
+        "editor.formatOnSave": true
     },
+    "powershell.scriptAnalysis.settingsPath": "PSScriptAnalyzerSettings.psd1",
+    "powershell.codeFormatting.preset": "OTBS",
+    "powershell.codeFormatting.alignPropertyValuePairs": true,
+    "powershell.codeFormatting.ignoreOneLineBlock": true,
     "json.schemas": [
         {
-            "url": "https://raw.githubusercontent.com/lukesampson/scoop/master/schema.json",
+            "url": "https://raw.githubusercontent.com/ScoopInstaller/Scoop/master/schema.json",
             "fileMatch": [
-                ".vscode/Template.jsonc",
-                "TODO/*.json",
-                "bucket/*.json",
-            ],
-        },
+                "bucket/*.json"
+            ]
+        }
     ],
-    "markdown.extension.italic.indicator": "_",
-    "markdown.extension.orderedList.marker": "one",
-    "markdown.extension.tableFormatter.enabled": true,
-    "markdown.extension.toc.githubCompatibility": true,
-    "markdown.extension.toc.levels": "2..6",
-    "markdown.extension.toc.plaintext": false,
-    "markdown.extension.toc.unorderedList.marker": "-",
-    "markdown.extension.toc.updateOnSave": false,
-    "powershell.codeFormatting.preset": "OTBS",
-    "terminals.terminals": [
-        {
-            "name": "Powershell",
-            "shellPath": "powershell.exe",
-            "shellArgs": [
-                "-NoLogo",
-                "-NoExit",
-            ],
-            "focus": true,
-            "open": true,
-        },
-        {
-            "name": "Powershell Core",
-            "shellPath": "pwsh.exe",
-            "shellArgs": [
-                "-NoLogo",
-                "-NoExit",
-            ],
-            "focus": true,
-            "open": true,
-        },
-    ],
-    "[yaml]": {
-        "editor.quickSuggestions": {
-            "other": true,
-            "comments": false,
-            "strings": true,
-        },
-        "editor.autoIndent": true,
-    },
-    "yaml.completion": true,
-    "yaml.format.bracketSpacing": true,
-    "yaml.format.enable": false,
-    "yaml.format.singleQuote": true,
-    "yaml.hover": true,
-    "yaml.schemas": {
-        "http://json.schemastore.org/appveyor": "appveyor.y*ml",
-        "http://json.schemastore.org/gitlab-ci": "gitlab-ci.y*ml",
-        "https://raw.githubusercontent.com/lukesampson/scoop/develop/schema.json": [
-            ".vscode/Template.yml",
-            "TODO/*.y*ml",
-            "bucket/*.y*ml",
-        ],
-    },
-    "yaml.validate": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/tmp": true
+    }
 }
