@@ -60,7 +60,7 @@ jobs:
             'issue_comment.yml',
             'issues.yml',
             'pull_request.yml',
-            'schedule.yml'
+            'excavator.yml'
           ]
 
           let runs_to_delete = [];
