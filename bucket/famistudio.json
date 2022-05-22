@@ -1,0 +1,24 @@
+{
+    "homepage": "https://famistudio.org/",
+    "description": "A very simple music editor for the Nintendo Entertainment System or Famicom",
+    "license": "MIT",
+    "version": "3.3.0",
+    "hash": "a5d8a40a34135ff472892a9dbaef1b63f74245741befb02ee20366ec6adf03ee",
+    "url": "https://github.com/BleuBleu/FamiStudio/releases/download/3.3.0/FamiStudio330-WinPortableExe.zip",
+    "shortcuts": [
+        [
+            "FamiStudio.exe",
+            "FamiStudio"
+        ]
+    ],
+    "persist":[
+        "FamiStudio.ini",
+        "AutoSaves"
+    ],
+    "checkver": {
+        "github": "https://github.com/BleuBleu/FamiStudio/releases"
+    },
+    "autoupdate": {
+        "url": "https://github.com/BleuBleu/FamiStudio/releases/download/$version/FamiStudio$majorVersion$minorVersion$patchVersion-WinPortableExe.zip"
+    }
+}
