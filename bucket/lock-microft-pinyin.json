@@ -1,6 +1,6 @@
 {
     "homepage": "https://github.com/maokwen/LockMicrosoftPinyin",
-    "description": "Paste the contents of the clipboard into files",
+    "description": "Lock Microsoft Pinyin IME on Chinese status",
     "version": "2022-05-30",
     "license": "Unlicense",
     "url": "https://github.com/maokwen/LockMicrosoftPinyin/releases/download/2022-05-30/LockMicrosoftPinyin.zip",
