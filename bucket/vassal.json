@@ -11,7 +11,9 @@
             "Vassal"
         ]
     ],
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/vassalengine/vassal"
+    },
     "autoupdate": {
         "url": "https://github.com/vassalengine/vassal/releases/download/$version/VASSAL-$version-windows-x86_64.exe"
     }
