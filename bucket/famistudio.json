@@ -16,7 +16,7 @@
         "AutoSaves"
     ],
     "checkver": {
-        "github": "https://github.com/BleuBleu/FamiStudio/releases"
+        "github": "https://github.com/BleuBleu/FamiStudio"
     },
     "autoupdate": {
         "url": "https://github.com/BleuBleu/FamiStudio/releases/download/$version/FamiStudio$majorVersion$minorVersion$patchVersion-WinPortableExe.zip"
