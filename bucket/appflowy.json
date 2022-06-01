@@ -13,9 +13,10 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/AppFlowy-IO/appflowy"
+        "url": "https://github.com/AppFlowy-IO/appflowy/releases/latest",
+        "re": "(?<version>[\\d.]+(?<d>_(?<l>beta|alpha).\\d+))"
     },
     "autoupdate": {
-        "url": "https://github.com/AppFlowy-IO/AppFlowy/releases/download/$version/AppFlowy-windows-x86.zip"
+        "url": "https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.0.4_beta.3/AppFlowy-windows-x86.zip"
     }
 }
