@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/maokwen/LockMicrosoftPinyin",
     "description": "Lock Microsoft Pinyin IME on Chinese status",
-    "version": "2022-06-01",
+    "version": "2022-06-06",
     "license": "Unlicense",
-    "url": "https://github.com/maokwen/LockMicrosoftPinyin/releases/download/2022-06-01/LockMicrosoftPinyin.zip",
-    "hash": "eed3740f7d9a6fa43be757a33ce179236eb4d50bf53f7510c0827c1bc00ea54d",
+    "url": "https://github.com/maokwen/LockMicrosoftPinyin/releases/download/2022-06-06/LockMicrosoftPinyin.zip",
+    "hash": "c3722bcf02eaed3bb0416fdbf7b17332e285ac03536ec87a9b80ba08ab7fcaa6",
     "shortcuts": [
         [
             "LockMicrosoftPinyin.exe",
