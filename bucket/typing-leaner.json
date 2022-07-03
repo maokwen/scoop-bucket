@@ -1,0 +1,19 @@
+{
+    "homepage": "https://github.com/tangshimin/typing-learner",
+    "description": "A tool to generate English vocabulary by videos",
+    "version": "1.0.3",
+    "license": "GPL-3.0-only",
+    "url": "https://github.com/tangshimin/typing-learner/releases/download/v1.0.3/Typing-Learner-1.0.3.msi#/dl.msi",
+    "hash": "a86ef388cfe49ca2a1e478da19979f2ed3a3b60136db8cb5e4be1a4d4f96d266",
+    "extract_dir": "Typing Learner",
+    "shortcuts": [
+        [
+            "Typing Learner.exe",
+            "Typing Learner"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/lapce/lapce/releases/download/v$version/Lapce-windows.msi#/dl.msi"
+    }
+}
