@@ -19,6 +19,6 @@
         "github": "https://github.com/YerongAI/Office-Tool"
     },
     "autoupdate": {
-        "url": "https://github.com/YerongAI/Office-Tool/releases/download/v$version/Office_Tool_with_runtime_$version.zip"
+        "url": "https://github.com/YerongAI/Office-Tool/releases/download/v$version/Office_Tool_v$version.zip"
     }
 }
