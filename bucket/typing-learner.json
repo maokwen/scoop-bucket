@@ -14,6 +14,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/lapce/lapce/releases/download/v$version/Lapce-windows.msi#/dl.msi"
+        "url": "https://github.com/tangshimin/typing-learner/releases/download/v$version/Typing-Learner-$version.msi#/dl.msi"
     }
 }
