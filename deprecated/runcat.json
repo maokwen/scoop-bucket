@@ -4,7 +4,7 @@
     "license": "Apache-2.0",
     "version": "2.0",
     "url": "https://github.com/Kyome22/RunCat_for_windows/releases/download/2.0//RunCat-x64.zip",
-    "hash": "f910822acca84dc92cf685ef616ae9e76cba7868e6df35ce22e7729fcfe4efb0",
+    "hash": "eac57dff96005068b5a150b261812ce8a8942d934ef2bd1022fecd8481cf7fb5",
     "suggest": {
         ".Net SDK": "dotnet-sdk"
     },
