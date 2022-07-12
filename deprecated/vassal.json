@@ -3,7 +3,7 @@
     "description": "A open-source boardgame engine",
     "homepage": "https://vassalengine.org",
     "license": "LGPL-2.1-only",
-    "url": "https://github.com/vassalengine/vassal/releases/download/3.6.7/VASSAL-3.6.7-windows-x86_64.exe",
+    "url": "https://github.com/vassalengine/vassal/releases/download/3.6.7/VASSAL-3.6.7-windows-x86_64.exe#/setup.exe",
     "hash": "5a8ebab0f0f808af91129cb771d5b03dbd9a8843e11d42cda8c2bbf94642d8bc",
     "shortcuts": [
         [
@@ -15,6 +15,6 @@
         "github": "https://github.com/vassalengine/vassal"
     },
     "autoupdate": {
-        "url": "https://github.com/vassalengine/vassal/releases/download/$version/VASSAL-$version-windows-x86_64.exe"
+        "url": "https://github.com/vassalengine/vassal/releases/download/$version/VASSAL-$version-windows-x86_64.exe#/setup.exe"
     }
 }
