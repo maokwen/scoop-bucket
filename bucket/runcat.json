@@ -3,7 +3,7 @@
     "description": "A cute running cat animation on your windows taskbar",
     "license": "Apache-2.0",
     "version": "2.0",
-    "url": "https://github.com/Kyome22/RunCat_for_windows/releases/download/2.0//RunCat-with-dotnet6-x64.zip",
+    "url": "https://github.com/Kyome22/RunCat_for_windows/releases/download/2.0//RunCat-x64.zip",
     "hash": "f910822acca84dc92cf685ef616ae9e76cba7868e6df35ce22e7729fcfe4efb0",
     "depends": "dotnet-sdk",
     "shortcuts": [
@@ -14,6 +14,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/Kyome22/RunCat_for_windows/releases/download/$version//RunCat-with-dotnet6-x64.zip"
+        "url": "https://github.com/Kyome22/RunCat_for_windows/releases/download/$version//RunCat-x64.zip"
     }
 }
