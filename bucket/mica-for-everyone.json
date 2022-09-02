@@ -2,9 +2,9 @@
     "homepage": "https://github.com/MicaForEveryone/MicaForEveryone",
     "description": "A tool to enable backdrop effect on titlebar of win32 apps on Windows 11",
     "license": "MIT",
-    "version": "1.2.0.0",
-    "url": "https://github.com/MicaForEveryone/MicaForEveryone/releases/download/v1.2.0.0/MicaForEveryone-x64-Release.zip",
-    "hash": "410c92cddfbd2c63135c27c928db559503a8617a6eefeabe003202b1913c1827",
+    "version": "1.2.0.1",
+    "url": "https://github.com/MicaForEveryone/MicaForEveryone/releases/download/v1.2.0.1/MicaForEveryone-x64-Release.zip",
+    "hash": "8f3d35992e7eda74a4ad18694c0bb34652d6b060e59d1fd2eed0434492398b0e",
     "shortcuts": [
         [
             "MicaForEveryone.exe",
