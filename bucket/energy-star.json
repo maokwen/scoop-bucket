@@ -14,9 +14,7 @@
             "EnergyStar"
         ]
     ],
-    "persist": [
-        "EnergyStar.inf"
-    ],
+    "persist": "EnergyStar.inf",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/imbushuo/EnergyStar/releases/download/$version-signed/Release.amd64.zip"

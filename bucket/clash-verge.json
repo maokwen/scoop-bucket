@@ -11,9 +11,7 @@
             "Clash Verge"
         ]
     ],
-    "persist": [
-        ".config"
-    ],
+    "persist": ".config",
     "post_install": [
         "if (!(Test-Path \"$persist_dir\\.config\\PORTABLE\")) {",
         "    New-Item \"$dir\\.config\\PORTABLE\" -Type File | Out-Null",

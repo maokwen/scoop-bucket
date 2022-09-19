@@ -9,12 +9,8 @@
         "nebula.exe",
         "nebula-cert.exe"
     ],
-    "pre_install": [
-        "Invoke-WebRequest -Uri \"https://raw.githubusercontent.com/slackhq/nebula/master/examples/config.yml\" -OutFile \"$dir\\config.yml\""
-    ],
-    "persist": [
-        "config.yaml"
-    ],
+    "pre_install": "Invoke-WebRequest -Uri \"https://raw.githubusercontent.com/slackhq/nebula/master/examples/config.yml\" -OutFile \"$dir\\config.yml\"",
+    "persist": "config.yaml",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/slackhq/nebula/releases/download/v$version/nebula-windows-amd64.zip"
