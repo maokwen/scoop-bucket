@@ -1,13 +1,13 @@
 {
     "homepage": "https://github.com/atom0s/Steamless",
     "description": "A DRM remover of the SteamStub variants",
-    "version": "3.1.0.0",
+    "version": "3.1.0.1",
     "license": {
         "identifier": "Freeware",
         "url": "https://github.com/atom0s/Steamless/blob/master/LICENSE"
     },
-    "url": "https://github.com/atom0s/Steamless/releases/download/v3.1.0.0/Steamless.v3.1.0.0.-.by.atom0s.zip",
-    "hash": "4da2b9519a32da67957449eb55edb8d442395ff548638639e9d62cbaac0da938",
+    "url": "https://github.com/atom0s/Steamless/releases/download/v3.1.0.1/Steamless.v3.1.0.1.-.by.atom0s.zip",
+    "hash": "ebdfe92d30beb8e0aaa05fd97423b7f79c2f0921858da66c27e90d73d4063b65",
     "persist": "Steamless.exe.config",
     "shortcuts": [
         [
