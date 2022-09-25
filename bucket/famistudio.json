@@ -2,9 +2,9 @@
     "homepage": "https://famistudio.org/",
     "description": "A very simple music editor for the Nintendo Entertainment System or Famicom",
     "license": "MIT",
-    "version": "4.0.0",
-    "hash": "0c36dbf98f9fef1586965172707b69dffa017195601bad59aba44094b2ef62f8",
-    "url": "https://github.com/BleuBleu/FamiStudio/releases/download/4.0.0/FamiStudio400-WinPortableExe.zip",
+    "version": "4.0.2",
+    "hash": "405bae6057a33d8416a7807dab597972e0f9922a4699cbcd220df455a3b3a99a",
+    "url": "https://github.com/BleuBleu/FamiStudio/releases/download/4.0.2/FamiStudio402-WinPortableExe.zip",
     "shortcuts": [
         [
             "FamiStudio.exe",
