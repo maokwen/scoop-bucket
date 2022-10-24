@@ -1,9 +1,9 @@
 {
-    "version": "4.2.0",
+    "version": "4.1.11",
     "license": "MPL-2.0",
     "homepage": "https://github.com/gorilla-devs/ferium",
-    "url": "https://github.com/gorilla-devs/ferium/releases/download/v4.2.0/ferium-windows-msvc.zip",
-    "hash": "e439fbc1e55920b7a75f22aef3867c4890e667a6c8fb8bc98525ea41a64f24f6",
+    "url": "https://github.com/gorilla-devs/ferium/releases/download/v4.1.11/ferium-windows-msvc.zip",
+    "hash": "a8c3b26c45ec0035f8d6d8772174cab2498fde20d3422554509dd68367e391f8",
     "bin": "ferium.exe",
     "checkver": "github",
     "autoupdate": {
