@@ -2,9 +2,9 @@
     "homepage": "https://www.wabbajack.org/",
     "description": "An automated Modlist installer for various games",
     "license": "GPL-3.0-only",
-    "version": "3.0.2.3",
-    "url": "https://github.com/wabbajack-tools/wabbajack/releases/download/3.0.2.3/3.0.2.3.zip",
-    "hash": "0d8d11d35837006b2bb43130a6ed4f4b037745d07969963e8ad20895d7ed7882",
+    "version": "3.0.3.0",
+    "url": "https://github.com/wabbajack-tools/wabbajack/releases/download/3.0.3.0/3.0.3.0.zip",
+    "hash": "2689953e8184e33b837a01a28940befcb173214d4df00f0052a0e0decb7b040f",
     "bin": "wabbajack-cli.exe",
     "shortcuts": [
         [
