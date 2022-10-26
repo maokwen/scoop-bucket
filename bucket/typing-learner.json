@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/tangshimin/typing-learner",
     "description": "A tool to generate English vocabulary by videos",
-    "version": "1.4.1",
+    "version": "1.4.2",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/tangshimin/typing-learner/releases/download/v1.4.1/Typing-Learner-1.4.1.msi#/dl.msi",
-    "hash": "f9f3ca22226e8eb9b7ef306f897ad08547174248a4cbf5daa9dd8693c35ee3c0",
+    "url": "https://github.com/tangshimin/typing-learner/releases/download/v1.4.2/Typing-Learner-1.4.2.msi#/dl.msi",
+    "hash": "4a128d823e8b51c58f6b0707cf7cd99361c89efee6db2ecbaeefb68fe89d9d99",
     "extract_dir": "Typing Learner",
     "shortcuts": [
         [
