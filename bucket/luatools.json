@@ -8,5 +8,10 @@
             "Luatools_v2.exe",
             "Luatools"
         ]
+    ],
+    "persist":[
+        "config",
+        "project",
+        "resource"
     ]
 }
