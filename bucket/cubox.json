@@ -1,7 +1,7 @@
 {
     "homepage": "https://cubox.cc/",
     "description": "A cozy nook for your daily reading and research",
-    "version": "0.0.21",
+    "version": "nightly",
     "license": "MIT",
     "url": "https://cubox.pro/download/latesthelper/Cubox-Windows.zip",
     "hash": "eb8f76bcf34c23849a369c89de25559a011ce5eb5a93ae58b2a0adf7206a14ec",
@@ -13,15 +13,11 @@
     ],
     "installer": {
         "script": [
-            "$msi_name = -join(\"Cubox_$version\", \"\", \"_x64_zh-CN\");",
-            "Expand-MsiArchive \"$dir\\$msi_name.msi\"",
+            "$msi_name = (Get-ChildItem \"$dir\" -Filter \"Cubox_*.msi\").name",
+            "Expand-MsiArchive \"$dir\\$msi_name\"",
             "Move-Item \"$dir\\PFiles\\Cubox\\*\" \"$dir\\\"",
-            "Remove-Item \"$dir\\$msi_name.msi\"",
+            "Remove-Item \"$dir\\$msi_name\"",
             "Remove-Item -Recurse \"$dir\\PFiles\""
         ]
-    },
-    "checkver": {
-        "url": "https://cubox.canny.io/changelog?labels=windows",
-        "regex": "Windows 客户端 ([\\d.]+)"
     }
 }
