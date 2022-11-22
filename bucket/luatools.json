@@ -9,7 +9,7 @@
             "Luatools"
         ]
     ],
-    "persist":[
+    "persist": [
         "config",
         "project",
         "resource"
