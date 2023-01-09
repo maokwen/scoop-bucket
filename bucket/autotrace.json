@@ -16,7 +16,7 @@
     },
     "bin": "autotrace.exe",
     "checkver": {
-        "url": "https://github.com/autotrace/autotrace/releases",
+        "url": "https://api.github.com/repos/autotrace/autotrace/releases/latest",
         "regex": "travis-(?<date>\\d+).?(?<rev>\\d+)/autotrace-(?<main>[\\d.]+)-\\d+-win64-setup.zip",
         "replace": "${main}-${date}.${rev}"
     },

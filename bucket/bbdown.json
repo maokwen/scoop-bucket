@@ -16,7 +16,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://github.com/nilaoda/BBDown/releases/latest",
+        "url": "https://api.github.com/repos/nilaoda/BBDown/releases/latest",
         "re": "BBDown_(?<version>[\\d\\w.]+)_(?<date>\\d+)_win-x64(?<suffix>.*?)\\.zip"
     },
     "autoupdate": {

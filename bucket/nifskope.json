@@ -13,8 +13,8 @@
         ]
     ],
     "checkver": {
-        "url": "https://github.com/niftools/nifskope/releases",
-        "regex": "/niftools/nifskope/releases/download/v(?<main>[\\d\\.]+)(?<rev>\\.dev\\d+?)/NifSkope(?<filespec>[\\d_-]+)x64.7z",
+        "url": "https://api.github.com/repos/niftools/nifskope/releases/latest",
+        "regex": "/v(?<main>[\\d\\.]+)(?<rev>\\.dev\\d+?)/NifSkope(?<filespec>[\\d_-]+)x64.7z",
         "replace": "${main}${rev}"
     },
     "autoupdate": {
