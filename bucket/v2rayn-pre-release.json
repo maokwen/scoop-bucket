@@ -1,0 +1,27 @@
+{
+    "version": "6.6",
+    "description": "GUI client based on v2ray core",
+    "homepage": "https://github.com/2dust/v2rayN",
+    "license": "GPL-3.0-only",
+    "url": "https://github.com/2dust/v2rayN/releases/download/6.6/v2rayN.7z",
+    "hash": "c82dbccd84b56cd6137b518fe5295983d0c26f25d9f0c5870cf30daaa9a90bd4",
+    "extract_dir": "v2rayN",
+    "bin": "v2rayN.exe",
+    "shortcuts": [
+        [
+            "v2rayN.exe",
+            "v2rayN"
+        ]
+    ],
+    "persist": [
+        "guiConfigs",
+        "bin"
+    ],
+    "checkver": {
+        "url": "https://github.com/2dust/v2rayN/tags",
+        "regex": "([\\d.]+)</a></h2>"
+    },
+    "autoupdate": {
+        "url": "https://github.com/2dust/v2rayN/releases/download/$version/v2rayN.7z"
+    }
+}
