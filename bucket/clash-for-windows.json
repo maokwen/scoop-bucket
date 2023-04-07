@@ -1,16 +1,16 @@
 {
     "homepage": "https://docs.cfw.lbyczf.com/",
     "description": "A Windows GUI based on Clash https://docs.cfw.lbyczf.com/",
-    "version": "0.20.19",
+    "version": "0.20.20",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.20.19/Clash.for.Windows-0.20.19-win.7z",
-            "hash": "10750cc09f50773826090581047eb173dc7890462833c297f212f022ec4f4b66"
+            "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.20.20/Clash.for.Windows-0.20.20-win.7z#/clash.7z",
+            "hash": "e6dd2833cc25ece06eb7811c7634b7ca2ad5498de475eb380c0530661c0534f3"
         },
         "arm64": {
-            "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.20.19/Clash.for.Windows-0.20.19-arm64-win.7z",
-            "hash": "7f0dfc9c45605f95ae3ef393a962bc00f90c820b601266749e137dc71f1a0bed"
+            "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.20.20/Clash.for.Windows.Setup.0.20.20.exe#/clash.7z",
+            "hash": "28b6e1c492a18dba5aa624ae730fcd8cc3e525ae19296a92334083a5e3366122"
         }
     },
     "shortcuts": [
@@ -40,6 +40,5 @@
                 }
             }
         }
-
     }
 }
