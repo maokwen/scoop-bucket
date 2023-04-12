@@ -2,9 +2,9 @@
     "homepage": "https://wrye-bash.github.io",
     "description": "A swiss army knife for modding Bethesda games. This is the main repository",
     "license": "GPL-3.0-only",
-    "version": "309.1",
-    "url": "https://github.com/wrye-bash/wrye-bash/releases/download/v309.1/Wrye.Bash.309.1.-.Standalone.Executable.7z",
-    "hash": "cef23234b8a4bc432a56f942bc431224eb9e739382d316bdc92edb4ea8a539e2",
+    "version": "310",
+    "url": "https://github.com/wrye-bash/wrye-bash/releases/download/v310/Wrye.Bash.310.-.Standalone.Executable.7z",
+    "hash": "c0d662eb0549a2a5845cd3116e4133516a5c12bc478948953d0a6a92d3ea620f",
     "extract_dir": "Mopy",
     "shortcuts": [
         [
