@@ -1,0 +1,18 @@
+{
+    "version": "1.0.5",
+    "license": "MIT",
+    "homepage": "https://github.com/stnkl/EverythingToolbar",
+    "url": "https://github.com/stnkl/EverythingToolbar/releases/download/1.0.5/EverythingToolbar-1.0.5.msi",
+    "hash": "d1bbf650adf1ea2786bdd6944b746f762db134ef6aa02225a746e35731141e8a",
+    "extract_dir": "EverythingToolbar",
+    "shortcuts": [
+        [
+            "EverythingToolbar.Launcher.exe",
+            "Everything Toolbar"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/stnkl/EverythingToolbar/releases/download/$version/EverythingToolbar-$version.msi"
+    }
+}
