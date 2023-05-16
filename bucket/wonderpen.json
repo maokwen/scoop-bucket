@@ -51,10 +51,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://www.tominlab.com/to/get-file/cdn?file=WonderPen/$majorVersion.$minorVersion/WonderPen_win_installer_$version($matchBuild).exe#/dl.7z"
+                "url": "https://file.tominlab.com/WonderPen/$majorVersion.$minorVersion/WonderPen_win_installer_x64_$version($matchBuild).exe"
+            },
+            "32bit": {
+                "url": "https://file.tominlab.com/WonderPen/$majorVersion.$minorVersion/WonderPen_win_installer_ia32_$version($matchBuild).exe"
             },
             "arm64": {
-                "url": "https://www.tominlab.com/to/get-file/cdn?file=WonderPen/$majorVersion.#minorVersion/WonderPen_win_installer_arm64_$version($matchBuild).exe#/dl.7z"
+                "url": "https://file.tominlab.com/WonderPen/$majorVersion.$minorVersion/WonderPen_win_installer_arm64_$version($matchBuild).exe"
             }
         }
     }
