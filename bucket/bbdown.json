@@ -2,9 +2,9 @@
     "homepage": "https://github.com/nilaoda/BBDown",
     "description": "a commandline video downloader for bilibili.com",
     "license": "MIT",
-    "version": "1.5.8",
-    "url": "https://github.com/nilaoda/BBDown/releases/download/1.5.8/BBDown_1.5.8_20230608_win-x64.zip",
-    "hash": "bd7649f4ff5d2f6a84f59ac331a7e2c0fdd1b1c9c217cae6d114b6a696c0655a",
+    "version": "1.5.9",
+    "url": "https://github.com/nilaoda/BBDown/releases/download/1.5.9/BBDown_1.5.9_20230622_win-x64.zip",
+    "hash": "f39eb71580fc74442372148db190aed084f1e3afec7442ae02e76fb08b71f0c6",
     "depends": [
         "aria2",
         "ffmpeg"
