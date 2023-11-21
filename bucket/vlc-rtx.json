@@ -28,7 +28,7 @@
     "persist": "portable",
     "checkver": {
         "url": "https://downloads.videolan.org/testing/vlc-rtx-upscaler/",
-        "regex": "vlc-rtx-upscaler/vlc-(?<version>[\\d.]+).7z"
+        "regex": "vlc-rtx-upscaler\/vlc-(?<version>[\\d.]+).7z"
     },
     "autoupdate": {
         "architecture": {
