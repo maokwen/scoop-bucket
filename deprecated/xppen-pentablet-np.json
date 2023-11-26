@@ -1,0 +1,26 @@
+
+{
+    "homepage": "https://www.xp-pen.com",
+    "description": "Utilities for XP-Pen tablets",
+    "license": "Freeware",
+    "version": "3.4.12",
+    "url": "https://download01.xp-pen.com/file/2023/11/XPPenWin_3.4.12.231011.zip",
+    "hash": "01279fa12ef850e1eef9477e06419930b1144bda34285f30569a035718c4289a",
+    "installer": {
+        "file": "setup.exe",
+        "args": [
+            "/quiet",
+            "/verysilent",
+            "/noicons",
+            "/dir=\"$dir\"",
+            "/norestart"
+        ]
+    },
+    "checkver": {
+        "url": "https://www.xp-pen.com/download/deco-m.html",
+        "regex": "XPPenWin_(?<version>[\\d.]+).(?<year>\\d\\d)(?<month>\\d\\d)(?<day>\\d\\d)"
+    },
+    "autoupdate": {
+        "url": "https://download01.xp-pen.com/file/$year/$month/XPPenWin_$version.$year$month$day.zip"
+    }
+}
