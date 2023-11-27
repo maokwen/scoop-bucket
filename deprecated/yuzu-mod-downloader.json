@@ -1,0 +1,18 @@
+{
+    "homepage": "https://github.com/amakvana/YuzuModDownloader",
+    "description": "A one-click Yuzu mod downloader for Yuzu game mods",
+    "license": "GPL-3.0-only",
+    "version": "1.4.0.0",
+    "url": "https://github.com/amakvana/YuzuModDownloader/releases/download/v1.4.0.0/YuzuModDownloader-1.4.0.0-Windows-x64.zip",
+    "hash": "c85df6ac60dd255685cd512d68bcb1f81dd9dc140f37095e7e077647d265c1fe",
+    "shortcuts": [
+        [
+            "YuzuModDownloader.exe",
+            "Yuzu Mod Downloader"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/amakvana/YuzuModDownloader/releases/download/v$version/YuzuModDownloader-$version-Windows-x64.zip"
+    }
+}
