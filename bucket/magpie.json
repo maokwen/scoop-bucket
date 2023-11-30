@@ -11,9 +11,13 @@
             "Magpie"
         ]
     ],
-    "persist": "config",
+    "persist": [
+        "config",
+        "cache",
+        "logs"
+    ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/Blinue/Magpie/releases/download/v$version/Magpie_v$version.zip"
+        "url": "https://github.com/Blinue/Magpie/releases/download/v$version/Magpie-v$version-x64.zip"
     }
 }
