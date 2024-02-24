@@ -22,9 +22,7 @@
     "installer": {
         "script": "cmd /c \"cd $dir && installer.exe\""
     },
-    "pre_uninstall": [
-        "if(!(is_admin)) { error \"Admin rights are required, please run 'sudo scoop uninstall $app'\"; exit 1 }"
-    ],
+    "pre_uninstall": "if(!(is_admin)) { error \"Admin rights are required, please run 'sudo scoop uninstall $app'\"; exit 1 }",
     "uninstaller": {
         "script": "cmd /c \"cd $dir && uninstaller.exe\""
     },
