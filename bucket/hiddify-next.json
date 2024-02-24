@@ -16,7 +16,6 @@
             "Hiddify Next"
         ]
     ],
-    "persist": "data",
     "checkver": {
         "github": "https://github.com/hiddify/hiddify-next"
     },
