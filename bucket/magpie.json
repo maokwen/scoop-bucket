@@ -2,9 +2,9 @@
     "homepage": "https://github.com/Blinue/Magpie",
     "description": "Make game windows fullscreen with scaling method",
     "license": "GPL-3.0-only",
-    "version": "0.10.5",
-    "url": "https://github.com/Blinue/Magpie/releases/download/v0.10.5/Magpie-v0.10.5-x64.zip",
-    "hash": "b6b7fdfdd6d53b6120d7307432605316ea4b384ee4ce3d777ff2309d3ea3105a",
+    "version": "0.10.6",
+    "url": "https://github.com/Blinue/Magpie/releases/download/v0.10.6/Magpie-v0.10.6-x64.zip",
+    "hash": "8666d447a0925dcd39af75f4df919a292cdc3bb534739fb0973d9c0f88ae5c2c",
     "shortcuts": [
         [
             "Magpie.exe",
