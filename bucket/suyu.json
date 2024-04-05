@@ -37,12 +37,12 @@
     ],
     "checkver": {
         "github": "https://github.com/suyu-emu/suyu",
-        "regex": "tag/v([\\d.-]+)-master"
+        "regex": "tag/v([\\d.-]+)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/suyu-emu/suyu-releases/raw/master/v$version-master/Suyu-Windows_x64.7z"
+                "url": "https://git.suyu.dev/suyu/suyu/releases/download/v$version/Suyu-Windows_x86_64.7z"
             }
         }
     }
