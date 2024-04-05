@@ -17,6 +17,6 @@
         "replace": "${main}${rev}"
     },
     "autoupdate": {
-        "url": "https://github.com/SteamTools-Team/SteamTools/releases/download/$version/Steam++_win_x64_v$version.7z"
+        "url": "https://github.com/BeyondDimension/SteamTools/releases/download/$version/Steam++_v$version_win_x64.7z"
     }
 }
