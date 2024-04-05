@@ -1,0 +1,48 @@
+{
+    "version": "7715077",
+    "description": "Experimental emulator for the Nintendo Switch",
+    "homepage": "https://github.com/sudachi-emu/sudachi",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/sudachi-emu/sudachi/releases/download/v7715077/v7715077-windows.7z",
+            "hash": "70d7e4b6b65f4ac9399239e76c5d8beb3cdd5f28fd33147c441ee1208e909c35"
+        }
+    },
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\")) {",
+        "   New-item \"$persist_dir\" -ItemType Directory | Out-Null",
+        "   New-item \"$persist_dir\\user\" -ItemType Directory | Out-Null",
+        "   if (Test-Path \"$env:APPDATA\\sudachi\") {",
+        "       Write-host \"Migrating AppData...\" -ForegroundColor yellow",
+        "       Copy-Item -Path \"$env:APPDATA\\sudachi\\*\" -Destination \"$persist_dir\\user\" -Recurse",
+        "       Remove-Item -Path \"$env:APPDATA\\sudachi\" -Recurse",
+        "   }",
+        "}"
+    ],
+    "bin": [
+        "sudachi.exe",
+        "sudachi-cmd.exe"
+    ],
+    "shortcuts": [
+        [
+            "sudachi.exe",
+            "sudachi"
+        ]
+    ],
+    "persist": [
+        "user",
+        "plugins"
+    ],
+    "checkver": {
+        "github": "https://github.com/sudachi-emu/sudachi",
+        "regex": "tag/v([\\d.-]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/sudachi-emu/sudachi/releases/download/v$version/v$version-windows.7z"
+            }
+        }
+    }
+}
