@@ -12,7 +12,9 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/SteamTools-Team/SteamTools"
+        "url": "https://github.com/SteamTools-Team/SteamTools/releases/latest",
+        "regex": "tag/(?<main>[\\d.]+)(?<rev>-rc.\\d+)",
+        "replace": "${main}${rev}"
     },
     "autoupdate": {
         "url": "https://github.com/SteamTools-Team/SteamTools/releases/download/$version/Steam++_win_x64_v$version.7z"
