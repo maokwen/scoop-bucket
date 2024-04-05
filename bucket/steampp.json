@@ -13,7 +13,7 @@
     ],
     "checkver": {
         "url": "https://github.com/SteamTools-Team/SteamTools/releases/latest",
-        "regex": "tag/(?<main>[\\d.]+)(?<rev>-rc.\\d+)",
+        "regex": "tag/(?<main>[\\d.]+)(?<rev>-rc.\\d+)?",
         "replace": "${main}${rev}"
     },
     "autoupdate": {
