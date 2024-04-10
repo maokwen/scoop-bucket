@@ -15,9 +15,7 @@
             "Alexandria"
         ]
     ],
-    "persist": [
-        "Alexandria_Data"
-    ],
+    "persist": "Alexandria_Data",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
@@ -27,5 +25,3 @@
         }
     }
 }
-
-
