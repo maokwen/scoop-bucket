@@ -7,21 +7,16 @@
     "hash": "fa5967e45de69d71c410c2217a49016f52f950913f0c91111d65fb537104ff54",
     "shortcuts": [
         [
-            "TESxEdit64.exe",
-            "TESxEdit"
+            "xTESEdit64.exe",
+            "xTESEdit"
         ],
         [
-            "TESxEdit64.exe",
-            "TESxEdit Quick Auto Clean",
-            "-quickclean"
+            "xFOEdit64.exe",
+            "xFOEdit"
         ],
         [
-            "FOxEdit64.exe",
-            "FOxEdit"
-        ],
-        [
-            "SFxEdit64.exe",
-            "SFxEdit"
+            "xSFEdit64.exe",
+            "xSFEdit"
         ]
     ],
     "persist": [
@@ -33,6 +28,6 @@
         "regex": "tag/xedit-([\\d.]+\\w?)"
     },
     "autoupdate": {
-        "url": "https://github.com/TES5Edit/TES5Edit/releases/download/xedit-$version/xEdit.$version.EXTREMELY.EXPERIMENTAL.7z"
+        "url": "https://github.com/TES5Edit/TES5Edit/releases/download/xedit-$version/xEdit.$version.7z"
     }
 }
