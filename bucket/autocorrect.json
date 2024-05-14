@@ -1,15 +1,16 @@
 {
-    "homepage": "https://github.com/autotrace/autotrace",
+    "homepage": "https://github.com/huacnlee/autocorrect",
     "description": "A linter and formatter to improve CJK copywriting",
     "license": "MIT",
-    "version": "2.9.0",
-    "url": "https://github.com/huacnlee/autocorrect/releases/download/v2.9.0/autocorrect-windows-amd64.zip",
-    "hash": "175450372ebce308db1337d1373e8f69f862681364a39dcccaef25e78de6b80a",
+    "version": "2.9.1",
+    "url": "https://github.com/huacnlee/autocorrect/releases/download/v2.9.1/autocorrect-windows-amd64.zip",
+    "hash": "921516e8e706cb3f493a8a7d79951b6fbc0da6c9631df392dd5b54b165d6c6cc",
     "bin": "autocorrect.exe",
-    "checkver": {
-        "github": "https://github.com/huacnlee/autocorrect"
-    },
+    "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/huacnlee/autocorrect/releases/download/v$(version)/autocorrect-windows-amd64.zip"
+        "url": "https://github.com/huacnlee/autocorrect/releases/download/v2.9.1/autocorrect-windows-amd64.zip",
+        "hash": {
+            "url": "$url.sha256"
+        }
     }
 }
