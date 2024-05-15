@@ -5,7 +5,7 @@
     "version": "5.0.13",
     "url": "https://github.com/jeanslack/Videomass/releases/download/v5.0.13/Videomass-v5.0.13_x86_64-portable.7z",
     "hash": "cdb93948922552ba381d5785dfa240e4a3238d33e1767d4d8554278aae70969c",
-    "extract_dir": "Videomass-v5.0.13_x86_64-portable/Videomass",
+    "extract_dir": "Videomass-v5.0.13_x86_64-portable",
     "shortcuts": [
         [
             "Videomass.exe",
@@ -17,6 +17,6 @@
     },
     "autoupdate": {
         "url": "https://github.com/jeanslack/Videomass/releases/download/v$version/Videomass-v$version_x86_64-portable.7z",
-        "extract_dir": "Videomass-v$version_x86_64-portable/Videomass"
+        "extract_dir": "Videomass-v$version_x86_64-portable"
     }
 }
