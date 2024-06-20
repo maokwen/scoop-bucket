@@ -2,7 +2,7 @@
     "homepage": "https://github.com/huacnlee/autocorrect",
     "description": "A linter and formatter to improve CJK copywriting",
     "license": "MIT",
-    "version": "2.10.0",
+    "version": "2.11.1",
     "url": "https://github.com/huacnlee/autocorrect/releases/download/v2.9.1/autocorrect-windows-amd64.zip",
     "hash": "921516e8e706cb3f493a8a7d79951b6fbc0da6c9631df392dd5b54b165d6c6cc",
     "bin": "autocorrect.exe",
