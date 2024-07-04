@@ -1,0 +1,20 @@
+{
+    "version": "nightly",
+    "license": "none",
+    "description": "Ultimate Software for 8ButDo controllers",
+    "homepage": "https://www.8bitdo.com",
+    "url": "https://download.8bitdo.com/Ultimate-Software/8BitDo-Ultimate-Software-for-Windows.zip#/setup.zip",
+    "installer": {
+        "script": [
+            "$extract_dir = (Get-ChildItem \"$dir\\*\\*.exe\").Directory",
+            "Move-Item \"$extract_dir\\*\" \"$dir\" -Force",
+            "Remove-Item -path \"$extract_dir\" -Recurse -Force"
+        ]
+    },
+    "shortcuts": [
+        [
+            "8BitDo Ultimate Software.exe",
+            "8BitDo Ultimate Software"
+        ]
+    ]
+}
