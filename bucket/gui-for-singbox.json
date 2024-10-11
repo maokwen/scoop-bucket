@@ -1,16 +1,16 @@
 {
     "homepage": "https://gui-for-cores.github.io",
     "description": "GUI applications designed for mihomo and sing-box cores",
-    "version": "1.8.6",
+    "version": "1.8.8",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/GUI-for-Cores/GUI.for.SingBox/releases/download/v1.8.6/GUI.for.SingBox-windows-amd64.zip",
-            "hash": "AA04DB5D96F08ABC51AD3B6644911C03342040DF2F1A2678A56A366AF3B34707"
+            "url": "https://github.com/GUI-for-Cores/GUI.for.SingBox/releases/download/v1.8.8/GUI.for.SingBox-windows-amd64.zip",
+            "hash": "2ea878905e419c94fd93dee4edcfcf8a00cedc0dfa2d927c53e54afbc490d8eb"
         },
         "arm64": {
-            "url": "https://github.com/GUI-for-Cores/GUI.for.SingBox/releases/download/v1.8.6/GUI.for.SingBox-windows-arm64.zip",
-            "hash": "8F864C08CA68B16B32CAD65203DA20798CD02460ACA66110074405731A843B7D"
+            "url": "https://github.com/GUI-for-Cores/GUI.for.SingBox/releases/download/v1.8.8/GUI.for.SingBox-windows-arm64.zip",
+            "hash": "e3249cddb5404e2a25c348fc6ed114547e0264cb0860675a28fdaa1586f258d0"
         }
     },
     "shortcuts": [
@@ -19,14 +19,12 @@
             "GUI for SingBox"
         ]
     ],
-    "persist": [
-        "data"
-    ],
+    "persist": "data",
     "checkver": {
         "github": "https://github.com/GUI-for-Cores/GUI.for.SingBox"
     },
     "autoupdate": {
-         "architecture": {
+        "architecture": {
             "64bit": {
                 "url": "https://github.com/GUI-for-Cores/GUI.for.SingBox/releases/download/v$version/GUI.for.SingBox-windows-amd64.zip"
             },
