@@ -22,7 +22,9 @@
     "persist": [
         "data"
     ],
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/GUI-for-Cores/GUI.for.SingBox"
+    },
     "autoupdate": {
          "architecture": {
             "64bit": {
