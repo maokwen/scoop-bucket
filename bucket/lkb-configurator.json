@@ -14,9 +14,9 @@
     ],
     "checkver": {
         "url": "https://down.glab.online:5550/lkb-configurator/",
-        "regex": "lkb-configurator-win-x64-(?<date>[\\d-]+)_(?<version>[\\da-zA-Z\\-\\.]+).zip"
+        "regex": "lkb-configurator-win-x64-(?<date>[\\d-]+)_(?<version>[\\da-zA-Z\\-\\.]+).tar.gz"
     },
     "autoupdate": {
-        "url": "https://down.glab.online:5550/lkb-configurator/lkb-configurator-win-x64-$date_$version.zip"
+        "url": "https://down.glab.online:5550/lkb-configurator/lkb-configurator-win-x64-$matchDate_$version.tar.gz"
     }
 }
