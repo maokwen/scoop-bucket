@@ -1,5 +1,5 @@
 {
-    "version": "1.0.",
+    "version": "1.0.1",
     "description": "PDF tool",
     "homepage": "https://github.com/wmjordan/PDFPatcher",
     "license": {
@@ -16,14 +16,10 @@
     ],
     "persist": "PDFPatcher.exe.config",
     "checkver": {
-        "github": "https://github.com/wmjordan/PDFPatcher",
-        "re": "v(?<version>[\\d\\.]+)(?<rev>\\d+)"
+        "url": "https://api.github.com/repos/wmjordan/PDFPatcher/releases/latest",
+        "re": "PDFPatcher\\.(?<version>[\\d\\.]+)\\.(?<rev>\\d+)\\.7z"
     },
     "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/wmjordan/PDFPatcher/releases/download/v$version/PDFPatcher.$version.$matchRev.7z"
-            }
-        }
+        "url": "https://github.com/wmjordan/PDFPatcher/releases/download/v$version/PDFPatcher.$version.$matchRev.7z"
     }
 }
