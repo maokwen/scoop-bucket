@@ -1,12 +1,12 @@
 {
-    "version": "1.0.1",
+    "version": "1.0.4",
     "description": "PDF tool",
     "homepage": "https://github.com/wmjordan/PDFPatcher",
     "license": {
         "identifier": "Freeware",
         "url": "https://github.com/wmjordan/PDFPatcher/blob/master/%E6%8E%88%E6%9D%83%E5%8D%8F%E8%AE%AE.txt"
     },
-    "url": "https://github.com/wmjordan/PDFPatcher/releases/download/v1.0.1/PDFPatcher.1.0.1.4220.7z",
+    "url": "https://github.com/wmjordan/PDFPatcher/releases/download/v1.0.4/PDFPatcher.1.0.4.4514.7z",
     "hash": "",
     "shortcuts": [
         [
