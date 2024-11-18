@@ -1,0 +1,21 @@
+{
+    "version": "0.38.0",
+    "description": "A modern, fast, and ergonomic Git CLI",
+    "homepage": "https://github.com/GitoxideLabs/gitoxide",
+    "license": "MIT",
+    "url": "https://github.com/GitoxideLabs/gitoxide/releases/download/v0.38.0/gitoxide-lean-v0.38.0-x86_64-pc-windows-msvc.zip",
+    "hash": "792816CA4C405A9A8DF7B37A3748F52B0A0DAF45BC5F7044ECAB29922169B440",
+    "extract_dir": "gitoxide-lean-v0.38.0-x86_64-pc-windows-msvc",
+    "bin": [
+        "gix.exe",
+        "ein.exe"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/GitoxideLabs/gitoxide/releases/download/v$version/gitoxide-lean-v$version-x86_64-pc-windows-msvc.zip",
+        "extract_dir": "gitoxide-lean-v$version-x86_64-pc-windows-msvc",
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
