@@ -2,9 +2,9 @@
     "homepage": "https://github.com/niuhuan/pikapika",
     "description": "PicACG comic client",
     "license": "Unlicense",
-    "version": "1.8.1",
-    "url": "https://github.com/niuhuan/pikapika/releases/download/v1.8.1/pikapika-v1.8.1_flutter-2.10.3-windows-x86_64.zip",
-    "hash": "dc414a72e44f1eaf38aa2216d523914a6818d020a318fb0fcd8684069a7e2b07",
+    "version": "1.8.4",
+    "url": "https://github.com/niuhuan/pikapika/releases/download/v1.8.4/pikapika-v1.8.4_flutter-2.10.3-windows-x86_64.zip",
+    "hash": "1faba7558410d13c124f7dab5cba73cc2c226c7fa635bf005dfe5edaca70f36f",
     "shortcuts": [
         [
             "pikapika.exe",
