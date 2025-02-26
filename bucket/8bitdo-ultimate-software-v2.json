@@ -1,11 +1,11 @@
 {
-    "version": "1.13",
+    "version": "1.0.0",
     "license": "none",
     "description": "Ultimate Software for 8ButDo controllers",
     "homepage": "https://www.8bitdo.com",
-    "url": "https://download.8bitdo.com/Ultimate-Software/8BitDo_Ultimate_Software_V2_V1.13.zip",
-    "hash": "c3e14ccf40ca34b5f014db992cfbbe55adcd6eb2beeda280642d0fd7c608fac1",
-    "extract_dir": "8BitDo_Ultimate_Software_V2_V1.13",
+    "url": "https://download.8bitdo.com/Ultimate-Software/8BitDo_Ultimate_Software_V2_V1.0.0.zip",
+    "hash": "b2809161d7d30560891d1e41eb995febc27433dbcc8b3b64abf0fd4a472afc19",
+    "extract_dir": "8BitDo_Ultimate_Software_V2_V1.0.0",
     "shortcuts": [
         [
             "8BitDo Ultimate Software V2.exe",
