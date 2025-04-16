@@ -2,10 +2,10 @@
     "homepage": "https://github.com/tonquer/picacg-qt",
     "description": "PicACG comic PC client",
     "license": "LGPL-3.0-only",
-    "version": "1.5.1",
-    "url": "https://github.com/tonquer/picacg-qt/releases/download/v1.5.1/bika_v1.5.1_windows_x64.7z",
-    "hash": "1d7aacdac3ffa193636ac623739ef16d71fb584f86f25aec6dc04efea6a81481",
-    "extract_dir": "bika_v1.5.1_windows_x64/bika",
+    "version": "1.5.2",
+    "url": "https://github.com/tonquer/picacg-qt/releases/download/v1.5.2/bika_v1.5.2_windows_x64.7z",
+    "hash": "6ddac1859e463261cfdbc0b8b3a628b246ff4d1d89678e9e86317464abcb598f",
+    "extract_dir": "bika_v1.5.2_windows_x64/bika",
     "persist": "data",
     "shortcuts": [
         [
