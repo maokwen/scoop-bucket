@@ -1,5 +1,5 @@
 {
-    "url": "http://cdndownload.openluat.com/Luat_tool_src/last_release/Luatools_v2.exe",
+    "url": "https://cdn6.vue2.cn/Luat_tool_src/last_release/Luatools_v3.exe",
     "version": "nightly",
     "homepage": "https://wiki.luatos.com/pages/tools.html",
     "license": "Unlicense",
@@ -10,7 +10,7 @@
         ]
     ],
     "pre_install": [
-        "Move-Item \"$dir\\Luatools_v2.exe\" \"$dir\\Luatools.exe\""
+        "Move-Item \"$dir\\Luatools_v3.exe\" \"$dir\\Luatools.exe\""
     ],
     "persist": [
         "config",
