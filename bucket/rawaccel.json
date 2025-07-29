@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/a1xd/rawaccel",
     "description": "Kernel mode mouse accel",
-    "version": "1.7.0",
+    "version": "1.7.1",
     "license": "MIT",
-    "url": "https://github.com/a1xd/rawaccel/releases/download/v1.7.0/RawAccel_v1.7.0.zip",
-    "hash": "57fbafbc1da5b43579ad777fa1f6327cd1cea319940cf2bf63e6ab56bcbd1da1",
+    "url": "https://github.com/a1xd/rawaccel/releases/download/v1.7.1/RawAccel_v1.7.1.zip",
+    "hash": "770fe3ae0919ca3c4d412f58c985eb27f5434decad809f7e8206de4e8852eec4",
     "extract_dir": "RawAccel",
     "shortcuts": [
         [
