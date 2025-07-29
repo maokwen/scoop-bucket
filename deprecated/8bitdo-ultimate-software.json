@@ -3,7 +3,7 @@
     "license": "none",
     "description": "Ultimate Software for 8ButDo controllers",
     "homepage": "https://www.8bitdo.com",
-    "url": "https://download.8bitdo.com/Ultimate-Software/8BitDo-Ultimate-Software-for-Windows.zip#/setup.zip",
+    "url": "https://download.8bitdo.com/Ultimate-Software/8BitDo_Ultimate_Software_V2_Windows_V1.19.zip#/setup.zip",
     "installer": {
         "script": [
             "$extract_dir = (Get-ChildItem \"$dir\\*\\*.exe\").Directory",
