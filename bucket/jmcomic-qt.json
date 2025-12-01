@@ -2,10 +2,10 @@
     "homepage": "https://github.com/tonquer/jmcomic-qt",
     "description": "18Comic comic PC client",
     "license": "LGPL-3.0-only",
-    "version": "1.2.9",
-    "url": "https://github.com/tonquer/jmcomic-qt/releases/download/v1.2.9/jmcomic_v1.2.9_windows_x64.zip",
-    "hash": "564f54a02f8aba797b582aac8e73c9aceba9f089e711f474d36a9c0cfec2f54b",
-    "extract_dir": "jmcomic_v1.2.9_windows_x64/jmcomic",
+    "version": "1.3.0",
+    "url": "https://github.com/tonquer/jmcomic-qt/releases/download/v1.3.0/jmcomic_v1.3.0_windows_x64.zip",
+    "hash": "8b113a7f9201f70194d49340e4f8ceb81c7b901955d18996dbac63efcb82adab",
+    "extract_dir": "jmcomic_v1.3.0_windows_x64/jmcomic",
     "persist": "data",
     "shortcuts": [
         [
