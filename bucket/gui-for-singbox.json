@@ -1,16 +1,16 @@
 {
     "homepage": "https://gui-for-cores.github.io",
     "description": "GUI applications designed for mihomo and sing-box cores",
-    "version": "1.16.0",
+    "version": "1.17.0",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/GUI-for-Cores/GUI.for.SingBox/releases/download/v1.16.0/GUI.for.SingBox-windows-amd64.zip",
-            "hash": "b04f0ce0f6b2d86436c80e8dc25462a79e672b904c0dca7689b17352e92c2b90"
+            "url": "https://github.com/GUI-for-Cores/GUI.for.SingBox/releases/download/v1.17.0/GUI.for.SingBox-windows-amd64.zip",
+            "hash": "19266a3cfd57c2661ebd0ff90e1ed5bafaf9a4a25af49ab7ceb7e4c0c594e021"
         },
         "arm64": {
-            "url": "https://github.com/GUI-for-Cores/GUI.for.SingBox/releases/download/v1.16.0/GUI.for.SingBox-windows-arm64.zip",
-            "hash": "4d24c51e7de1323fda24d8f6b362cddb1266b3e2fd5baba898d7d3d66d06bf44"
+            "url": "https://github.com/GUI-for-Cores/GUI.for.SingBox/releases/download/v1.17.0/GUI.for.SingBox-windows-arm64.zip",
+            "hash": "6d9b4f5c335d0a49e619eb0baac88793512f2a91bd176959c92d7dd17f8758d9"
         }
     },
     "shortcuts": [
